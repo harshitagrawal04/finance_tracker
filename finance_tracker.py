@@ -2,15 +2,12 @@ import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
 import json
 from datetime import datetime, date
-import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import pandas as pd
-from tkcalendar import DateEntry, Calendar
-from PIL import Image, ImageTk
+from tkcalendar import Calendar
 import os
 import ast
 import re
-from dateutil.relativedelta import relativedelta  # Add this import
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import numpy as np
@@ -50,6 +47,9 @@ class FinanceTracker:
         self.create_widgets()
 
         self.base_dir = os.path.dirname(__file__)  # Base directory for saving files
+        
+        # Call to update remaining budget on initialization
+        self.update_remaining_budget()  # {{ edit_1 }}
 
     def create_widgets(self):
         # Main frame
@@ -61,13 +61,13 @@ class FinanceTracker:
         
         add_tab = ttk.Frame(tab_control)
         view_tab = ttk.Frame(tab_control)
+        analysis_tab = ttk.Frame(tab_control)
         category_tab = ttk.Frame(tab_control)
-        analysis_tab = ttk.Frame(tab_control)  # Add this line
         
         tab_control.add(add_tab, text="Add Record")
         tab_control.add(view_tab, text="View Records")
+        tab_control.add(analysis_tab, text="Analysis")
         tab_control.add(category_tab, text="Manage Categories")
-        tab_control.add(analysis_tab, text="Analysis")  # Add this line
         
         tab_control.pack(expand=1, fill="both")
 
@@ -77,11 +77,11 @@ class FinanceTracker:
         # View Records Tab
         self.create_view_records_widgets(view_tab)
 
+        # Analysis Tab
+        self.create_analysis_widgets(analysis_tab)
+
         # Category Management Tab
         self.create_category_management_widgets(category_tab)
-
-        # Analysis Tab
-        self.create_analysis_widgets(analysis_tab)  # Add this line
 
     def create_add_record_widgets(self, parent):
         # Date selection
@@ -132,46 +132,50 @@ class FinanceTracker:
     def create_view_records_widgets(self, parent):
         # Create a notebook for income and expense tabs
         view_notebook = ttk.Notebook(parent)
-        view_notebook.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+        view_notebook.grid(sticky=tk.NSEW, padx=10, pady=10)
 
         # Frame for date range selection (moved outside)
         date_frame = ttk.Frame(parent)
-        date_frame.pack(padx=10, pady=10, fill=tk.X)
+        date_frame.grid(padx=10, pady=10, sticky=tk.NSEW)
 
         # Calculate default start and end dates
         today = date.today()
         first_day_of_month = today.replace(day=1)
 
         # Start Date
-        ttk.Label(date_frame, text="Start Date:").pack(side=tk.LEFT, padx=5)
+        ttk.Label(date_frame, text="Start Date:").grid(row=0, column=0, padx=5)
         self.start_date_var = tk.StringVar(value=first_day_of_month.strftime("%Y-%m-%d"))  # Set to first of the month
         start_date_entry = ttk.Entry(date_frame, textvariable=self.start_date_var, width=12)
-        start_date_entry.pack(side=tk.LEFT, padx=5)
-        ttk.Button(date_frame, text="Select Start Date", command=lambda: self.open_calendar_for_date(self.start_date_var)).pack(side=tk.LEFT, padx=5)
+        start_date_entry.grid(row=0, column=1, padx=5)
+        ttk.Button(date_frame, text="Select Start Date", command=lambda: self.open_calendar_for_date(self.start_date_var)).grid(row=0, column=2, padx=5)
 
         # End Date
-        ttk.Label(date_frame, text="End Date:").pack(side=tk.LEFT, padx=5)
+        ttk.Label(date_frame, text="End Date:").grid(row=1, column=0, padx=5)
         self.end_date_var = tk.StringVar(value=today.strftime("%Y-%m-%d"))  # Set to current date
         end_date_entry = ttk.Entry(date_frame, textvariable=self.end_date_var, width=12)
-        end_date_entry.pack(side=tk.LEFT, padx=5)
-        ttk.Button(date_frame, text="Select End Date", command=lambda: self.open_calendar_for_date(self.end_date_var)).pack(side=tk.LEFT, padx=5)
+        end_date_entry.grid(row=1, column=1, padx=5)
+        ttk.Button(date_frame, text="Select End Date", command=lambda: self.open_calendar_for_date(self.end_date_var)).grid(row=1, column=2, padx=5)
 
         # Income tab
         income_tab = ttk.Frame(view_notebook)
         view_notebook.add(income_tab, text="Income")
-        self.create_record_view(income_tab, "Income")
+        self.income_tree = self.create_record_view(income_tab, "Income")  # Store reference to income tree
 
         # Expense tab
         expense_tab = ttk.Frame(view_notebook)
         view_notebook.add(expense_tab, text="Expense")
-        self.create_record_view(expense_tab, "Expense")
-
-        # Add a button for showing records
-        ttk.Button(date_frame, text="Show Records", command=lambda: self.show_records("Income", self.start_date_var, self.end_date_var)).pack(side=tk.LEFT, padx=5)
-        ttk.Button(date_frame, text="Show Records", command=lambda: self.show_records("Expense", self.start_date_var, self.end_date_var)).pack(side=tk.LEFT, padx=5)
+        self.expense_tree = self.create_record_view(expense_tab, "Expense")  # Store reference to expense tree
 
         # Add a button for downloading records
-        ttk.Button(parent, text="Download Records", command=self.download_records).pack(pady=10)
+        ttk.Button(parent, text="Download Records", command=self.download_records).grid(row=9, column=0, padx=5, pady=10)
+
+        # Add a button for generating records
+        ttk.Button(parent, text="Generate", command=self.generate_records).grid(row=10, column=0, padx=5, pady=10)
+
+        # Add a button for editing the selected record
+        ttk.Button(parent, text="Edit Selected Record", command=self.edit_selected_record).grid(row=11, column=0, padx=2, pady=2, sticky="w")
+        # Add a button for deleting the selected record
+        ttk.Button(parent, text="Delete Selected Record", command=self.delete_selected_record).grid(row=11, column=1, padx=2, pady=2, sticky="w")
 
     def create_record_view(self, parent, record_type):
         # Create a frame to hold the treeview and scrollbars
@@ -199,11 +203,11 @@ class FinanceTracker:
         vsb.config(command=tree.yview)
         hsb.config(command=tree.xview)
 
-        # Store the treeview in a dictionary for later access
-        if record_type == "Expense":
-            self.expense_tree = tree
-        else:
-            self.income_tree = tree
+        # Set the title of the treeview based on record_type
+        # tree_frame.title(f"{record_type} Records")  # This line causes the error
+
+        # Return the created treeview
+        return tree
 
     def show_records(self, record_type, start_date_var, end_date_var):
         start_date = start_date_var.get()
@@ -259,6 +263,131 @@ class FinanceTracker:
                 print(f"Error in {record_type} record {index}: Missing key {e}")
                 print(f"Problematic record: {record}")
                 messagebox.showwarning("Data Error", f"Some {record_type.lower()} records are missing required fields. Check the console for details.")
+
+    def edit_record(self, tree, record_type):
+        selected_item = tree.selection()
+        if not selected_item:
+            messagebox.showerror("Error", "Please select a record to edit.")
+            return
+
+        item = tree.item(selected_item)
+        records = self.expenses if record_type == "Expense" else self.income
+
+        for index, record in enumerate(records):
+            if (record["date"] == item['values'][0] and
+                record["amount"] == float(item['values'][1]) and
+                record["category"] == item['values'][2] and
+                record["description"] == item['values'][3]):
+                break
+        else:
+            messagebox.showerror("Error", "Record not found.")
+            return
+
+        # Create a new window for editing
+        edit_window = tk.Toplevel(self.master)
+        edit_window.title("Edit Record")
+
+        # Date
+        ttk.Label(edit_window, text="Date:").grid(row=0, column=0, padx=5, pady=5, sticky="w")
+        date_var = tk.StringVar(value=record["date"])
+        date_entry = ttk.Entry(edit_window, textvariable=date_var)
+        date_entry.grid(row=0, column=1, padx=5, pady=5, sticky="w")
+        ttk.Button(edit_window, text="Select Date", command=lambda: self.open_calendar_for_edit(date_var)).grid(row=0, column=2, padx=5, pady=5, sticky="w")
+
+        # Amount
+        ttk.Label(edit_window, text="Amount:").grid(row=1, column=0, padx=5, pady=5, sticky="w")
+        amount_entry = ttk.Entry(edit_window)
+        amount_entry.insert(0, str(record["amount"]))
+        amount_entry.grid(row=1, column=1, padx=5, pady=5, sticky="w")
+
+        # Category
+        ttk.Label(edit_window, text="Category:").grid(row=2, column=0, padx=5, pady=5, sticky="w")
+        category_var = tk.StringVar(value=record["category"])
+        category_combobox = ttk.Combobox(edit_window, textvariable=category_var)
+        category_combobox.grid(row=2, column=1, padx=5, pady=5, sticky="w")
+        category_combobox['values'] = self.categories["expense"] if record_type == "Expense" else self.categories["income"]
+
+        # Description
+        ttk.Label(edit_window, text="Description:").grid(row=3, column=0, padx=5, pady=5, sticky="w")
+        description_entry = ttk.Entry(edit_window)
+        description_entry.insert(0, record["description"])
+        description_entry.grid(row=3, column=1, columnspan=2, padx=5, pady=5, sticky="we")
+
+        # Recurring
+        recurring_var = tk.BooleanVar(value=record["recurring"])
+        ttk.Checkbutton(edit_window, text="Recurring", variable=recurring_var).grid(row=4, column=0, columnspan=2, padx=5, pady=5, sticky="w")
+
+        # Save button
+        ttk.Button(edit_window, text="Save Changes", command=lambda: self.save_edited_record(
+            records, index, date_var, amount_entry, record_type, category_var, description_entry, recurring_var, edit_window, tree
+        )).grid(row=5, column=0, columnspan=3, padx=5, pady=10)
+
+    def delete_record(self, tree, record_type):
+        selected_item = tree.selection()
+        if not selected_item:
+            messagebox.showerror("Error", "Please select a record to delete.")
+            return
+
+        if messagebox.askyesno("Confirm Delete", "Are you sure you want to delete this record?"):
+            item = tree.item(selected_item)
+            records = self.expenses if record_type == "Expense" else self.income
+
+            for index, record in enumerate(records):
+                if (record["date"] == item['values'][0] and
+                    record["amount"] == float(item['values'][1]) and
+                    record["category"] == item['values'][2] and
+                    record["description"] == item['values'][3]):
+                    del records[index]
+                    if record["recurring"]:
+                        self.categories["recurring"][record_type.lower()].remove(record)
+                    break
+            else:
+                messagebox.showerror("Error", "Record not found.")
+                return
+
+            self.save_data()
+            self.populate_treeview(tree, record_type, self.start_date_var.get(), self.end_date_var.get())  # Ensure the treeview is updated
+            messagebox.showinfo("Success", "Record deleted successfully!")
+
+    def load_data(self):
+        def load_file(file_path):
+            try:
+                with open(file_path, "r") as file:
+                    data = file.read()
+                    # Remove any trailing commas
+                    data = re.sub(r',\s*}', '}', data)
+                    data = re.sub(r',\s*]', ']', data)
+                    # Replace single quotes with double quotes
+                    data = data.replace("'", '"')
+                    # Parse the data
+                    parsed_data = json.loads(data, cls=CustomJSONDecoder)
+                    # Normalize keys to lowercase for dictionaries in lists
+                    if isinstance(parsed_data, list):
+                        return [{k.lower(): v for k, v in item.items()} for item in parsed_data]
+                    return parsed_data
+            except FileNotFoundError:
+                messagebox.showerror("Error", f"{file_path} not found in the finance_data folder.")
+            except json.JSONDecodeError as e:
+                messagebox.showerror("Error", f"Invalid JSON in {file_path}: {str(e)}")
+            except Exception as e:
+                messagebox.showerror("Error", f"Error loading {file_path}: {str(e)}")
+            return None
+
+        self.expenses = load_file(self.expenses_file) or []
+        self.income = load_file(self.income_file) or []
+        self.categories = load_file(self.categories_file) or {
+            "income": [],
+            "expense": [],
+            "spending_limits": {},
+            "recurring": {
+                "income": [],
+                "expense": []
+            }
+        }
+
+        if not all([self.expenses, self.income, self.categories]):
+            messagebox.showwarning("Data Loading Issue", "Some data couldn't be loaded. The application might not work as expected.")
+
 
     def open_calendar_for_date(self, date_var):
         top = tk.Toplevel(self.master)
@@ -432,7 +561,10 @@ class FinanceTracker:
             self.categories["recurring"][record_type.lower()].append(record)
 
         self.save_data()
-        self.populate_treeview(self.tree, self.type_var.get(), self.start_date_var.get(), self.end_date_var.get())
+
+        # Update the treeview based on the record type
+        tree = self.expense_tree if record_type == "Expense" else self.income_tree
+        self.populate_treeview(tree, record_type, self.start_date_var.get(), self.end_date_var.get())
         messagebox.showinfo("Success", "Record added successfully!")
 
         # Clear entries
@@ -440,65 +572,6 @@ class FinanceTracker:
         self.category_var.set('')
         self.description_entry.delete(0, tk.END)
         self.recurring_var.set(False)
-
-
-    def edit_record(self, tree, record_type):
-        selected_item = tree.selection()
-        if not selected_item:
-            messagebox.showerror("Error", "Please select a record to edit.")
-            return
-
-        item = tree.item(selected_item)
-        records = self.expenses if record_type == "Expense" else self.income
-
-        for index, record in enumerate(records):
-            if (record["date"] == item['values'][0] and
-                record["amount"] == float(item['values'][1]) and
-                record["category"] == item['values'][2] and
-                record["description"] == item['values'][3]):
-                break
-        else:
-            messagebox.showerror("Error", "Record not found.")
-            return
-
-        # Create a new window for editing
-        edit_window = tk.Toplevel(self.master)
-        edit_window.title("Edit Record")
-
-        # Date
-        ttk.Label(edit_window, text="Date:").grid(row=0, column=0, padx=5, pady=5, sticky="w")
-        date_var = tk.StringVar(value=record["date"])
-        date_entry = ttk.Entry(edit_window, textvariable=date_var)
-        date_entry.grid(row=0, column=1, padx=5, pady=5, sticky="w")
-        ttk.Button(edit_window, text="Select Date", command=lambda: self.open_calendar_for_edit(date_var)).grid(row=0, column=2, padx=5, pady=5, sticky="w")
-
-        # Amount
-        ttk.Label(edit_window, text="Amount:").grid(row=1, column=0, padx=5, pady=5, sticky="w")
-        amount_entry = ttk.Entry(edit_window)
-        amount_entry.insert(0, str(record["amount"]))
-        amount_entry.grid(row=1, column=1, padx=5, pady=5, sticky="w")
-
-        # Category
-        ttk.Label(edit_window, text="Category:").grid(row=2, column=0, padx=5, pady=5, sticky="w")
-        category_var = tk.StringVar(value=record["category"])
-        category_combobox = ttk.Combobox(edit_window, textvariable=category_var)
-        category_combobox.grid(row=2, column=1, padx=5, pady=5, sticky="w")
-        category_combobox['values'] = self.categories["expense"] if record_type == "Expense" else self.categories["income"]
-
-        # Description
-        ttk.Label(edit_window, text="Description:").grid(row=3, column=0, padx=5, pady=5, sticky="w")
-        description_entry = ttk.Entry(edit_window)
-        description_entry.insert(0, record["description"])
-        description_entry.grid(row=3, column=1, columnspan=2, padx=5, pady=5, sticky="we")
-
-        # Recurring
-        recurring_var = tk.BooleanVar(value=record["recurring"])
-        ttk.Checkbutton(edit_window, text="Recurring", variable=recurring_var).grid(row=4, column=0, columnspan=2, padx=5, pady=5, sticky="w")
-
-        # Save button
-        ttk.Button(edit_window, text="Save Changes", command=lambda: self.save_edited_record(
-            records, index, date_var, amount_entry, record_type, category_var, description_entry, recurring_var, edit_window, tree
-        )).grid(row=5, column=0, columnspan=3, padx=5, pady=10)
 
     def open_calendar_for_edit(self, date_var):
         top = tk.Toplevel(self.master)
@@ -542,72 +615,6 @@ class FinanceTracker:
         messagebox.showinfo("Success", "Record updated successfully!")
         edit_window.destroy()
 
-    def delete_record(self, tree, record_type):
-        selected_item = tree.selection()
-        if not selected_item:
-            messagebox.showerror("Error", "Please select a record to delete.")
-            return
-
-        if messagebox.askyesno("Confirm Delete", "Are you sure you want to delete this record?"):
-            item = tree.item(selected_item)
-            records = self.expenses if record_type == "Expense" else self.income
-
-            for index, record in enumerate(records):
-                if (record["date"] == item['values'][0] and
-                    record["amount"] == float(item['values'][1]) and
-                    record["category"] == item['values'][2] and
-                    record["description"] == item['values'][3]):
-                    del records[index]
-                    if record["recurring"]:
-                        self.categories["recurring"][record_type.lower()].remove(record)
-                    break
-            else:
-                messagebox.showerror("Error", "Record not found.")
-                return
-
-            self.save_data()
-            self.populate_treeview(tree, record_type, self.start_date_var.get(), self.end_date_var.get())  # Ensure the treeview is updated
-            messagebox.showinfo("Success", "Record deleted successfully!")
-
-    def load_data(self):
-        def load_file(file_path):
-            try:
-                with open(file_path, "r") as file:
-                    data = file.read()
-                    # Remove any trailing commas
-                    data = re.sub(r',\s*}', '}', data)
-                    data = re.sub(r',\s*]', ']', data)
-                    # Replace single quotes with double quotes
-                    data = data.replace("'", '"')
-                    # Parse the data
-                    parsed_data = json.loads(data, cls=CustomJSONDecoder)
-                    # Normalize keys to lowercase for dictionaries in lists
-                    if isinstance(parsed_data, list):
-                        return [{k.lower(): v for k, v in item.items()} for item in parsed_data]
-                    return parsed_data
-            except FileNotFoundError:
-                messagebox.showerror("Error", f"{file_path} not found in the finance_data folder.")
-            except json.JSONDecodeError as e:
-                messagebox.showerror("Error", f"Invalid JSON in {file_path}: {str(e)}")
-            except Exception as e:
-                messagebox.showerror("Error", f"Error loading {file_path}: {str(e)}")
-            return None
-
-        self.expenses = load_file(self.expenses_file) or []
-        self.income = load_file(self.income_file) or []
-        self.categories = load_file(self.categories_file) or {
-            "income": [],
-            "expense": [],
-            "spending_limits": {},
-            "recurring": {
-                "income": [],
-                "expense": []
-            }
-        }
-
-        if not all([self.expenses, self.income, self.categories]):
-            messagebox.showwarning("Data Loading Issue", "Some data couldn't be loaded. The application might not work as expected.")
-
     def save_data(self):
         with open(self.expenses_file, "w") as file:
             json.dump(self.expenses, file, indent=2)
@@ -628,47 +635,51 @@ class FinanceTracker:
         self.date_var.set(cal.get_date())
         top.destroy()
 
-    from datetime import datetime, date
 
     def create_analysis_widgets(self, parent):
         # Frame for date range selection
         date_frame = ttk.Frame(parent)
-        date_frame.pack(padx=10, pady=10, fill=tk.X)
+        date_frame.grid(padx=10, pady=10, sticky='ew')
 
         # Calculate default start and end dates
         today = date.today()
         first_day_of_month = today.replace(day=1)
 
         # Start Date
-        ttk.Label(date_frame, text="Start Date:").pack(side=tk.LEFT, padx=5)
+        ttk.Label(date_frame, text="Start Date:").grid(row=0, column=0, padx=5)
         self.analysis_start_date_var = tk.StringVar(value=first_day_of_month.strftime("%Y-%m-%d"))
         start_date_entry = ttk.Entry(date_frame, textvariable=self.analysis_start_date_var, width=12)
-        start_date_entry.pack(side=tk.LEFT, padx=5)
-        ttk.Button(date_frame, text="Select Start Date", command=lambda: self.open_calendar_for_date(self.analysis_start_date_var)).pack(side=tk.LEFT, padx=5)
+        start_date_entry.grid(row=0, column=1, padx=5)
+        ttk.Button(date_frame, text="Select Start Date", command=lambda: self.open_calendar_for_date(self.analysis_start_date_var)).grid(row=0, column=2, padx=5)
 
         # End Date
-        ttk.Label(date_frame, text="End Date:").pack(side=tk.LEFT, padx=5)
+        ttk.Label(date_frame, text="End Date:").grid(row=1, column=0, padx=5)
         self.analysis_end_date_var = tk.StringVar(value=today.strftime("%Y-%m-%d"))
         end_date_entry = ttk.Entry(date_frame, textvariable=self.analysis_end_date_var, width=12)
-        end_date_entry.pack(side=tk.LEFT, padx=5)
-        ttk.Button(date_frame, text="Select End Date", command=lambda: self.open_calendar_for_date(self.analysis_end_date_var)).pack(side=tk.LEFT, padx=5)
+        end_date_entry.grid(row=1, column=1, padx=5)
+        ttk.Button(date_frame, text="Select End Date", command=lambda: self.open_calendar_for_date(self.analysis_end_date_var)).grid(row=1, column=2, padx=5)
 
         # Analysis Type
-        ttk.Label(parent, text="Select Analysis Type:").pack(pady=5)
+        ttk.Label(parent, text="Select Analysis Type:").grid(row=2, column=0, pady=5)
         self.analysis_type_var = tk.StringVar()
         analysis_type_combobox = ttk.Combobox(parent, textvariable=self.analysis_type_var)
         analysis_type_combobox['values'] = ("Categories Analysis", "Income vs Spending", "Monthly by Category")
-        analysis_type_combobox.pack(pady=5)
+        analysis_type_combobox.grid(row=2, column=1, pady=5)
 
-        # Chart Type
-        ttk.Label(parent, text="Select Chart Type:").pack(pady=5)
-        self.chart_type_var = tk.StringVar()
+        # Chart Type Selection
+        ttk.Label(parent, text="Select Chart Type:").grid(row=3, column=0, pady=5)
+        self.chart_type_var = tk.StringVar()  # Define chart_type_var
         chart_type_combobox = ttk.Combobox(parent, textvariable=self.chart_type_var)
-        chart_type_combobox['values'] = ("Pie Chart", "Bar Chart", "Line Graph", "Area Chart")  # Removed "Scatter Plot"
-        chart_type_combobox.pack(pady=5)
+        chart_type_combobox['values'] = ("Bar Chart", "Line Graph", "Area Chart", "Pie Chart")  # Add chart type options
+        chart_type_combobox.grid(row=3, column=1, pady=5)
+
+        # Label to display analysis results
+        self.analysis_result_label = ttk.Label(parent, text="", wraplength=400, justify="left")
+        self.analysis_result_label.grid(row=4, column=0, columnspan=2, pady=10)
 
         # Button to perform analysis
-        ttk.Button(parent, text="Perform Analysis", command=self.perform_analysis).pack(pady=10)
+        ttk.Button(parent, text="Perform Analysis", command=self.perform_analysis).grid(row=5, column=0, columnspan=2, pady=10)
+
 
     def perform_analysis(self):
         start_date = self.analysis_start_date_var.get()
@@ -683,19 +694,8 @@ class FinanceTracker:
             return
 
         if analysis_type == "Monthly by Category":
-            # Prompt user to select income, expense, or both
-            analysis_choice = simpledialog.askstring("Select Analysis Type", "Choose analysis type:\n1. Income\n2. Expense\n3. Both\n(Enter 1, 2, or 3)")
-
-            if analysis_choice not in ["1", "2", "3"]:
-                messagebox.showerror("Error", "Invalid choice. Please enter 1, 2, or 3.")
-                return
-
-            if analysis_choice == "1":
-                self.visualize_monthly_by_category(start_date, end_date, chart_type, record_type="Income")
-            elif analysis_choice == "2":
-                self.visualize_monthly_by_category(start_date, end_date, chart_type, record_type="Expense")
-            elif analysis_choice == "3":
-                self.visualize_monthly_by_category(start_date, end_date, chart_type, record_type="Both")
+            self.visualize_monthly_by_category(start_date, end_date, chart_type, record_type="Both")
+            
         else:
             if analysis_type in ["Income vs Spending"] and not chart_type:
                 messagebox.showerror("Error", "Please select a chart type for the selected analysis.")
@@ -754,8 +754,8 @@ class FinanceTracker:
             f"Lowest Income Category: {lowest_income} with ${income_totals.get(lowest_income, 0):.2f}"
         )
 
-        # Display results in the analysis type selection widget
-        messagebox.showinfo("Analysis Results", result_text)  # Show results in a message box
+        # Update the label with the analysis results
+        self.analysis_result_label.config(text=result_text)  # Update the label instead of showing a message box
         
     def visualize_income_vs_spending(self, start_date, end_date, chart_type):
         # Filter data based on the date range
@@ -864,27 +864,42 @@ class FinanceTracker:
                     monthly_data[month][category] = monthly_data[month].get(category, 0) + record["amount"]
 
         # Prepare data for plotting
-        all_categories = sorted(set(category for month in monthly_data.values() for category in month.keys()))
+        all_categories_income = sorted(set(category for month in monthly_data.values() for category in month.keys() if category in self.categories["income"]))
+        all_categories_expense = sorted(set(category for month in monthly_data.values() for category in month.keys() if category in self.categories["expense"]))
 
         # Create a new Toplevel window for category selection and graph
         selection_window = tk.Toplevel(self.master)
         selection_window.title("Select Categories for Graph")
 
-        # Listbox for category selection
-        listbox_frame = ttk.Frame(selection_window)
-        listbox_frame.pack(side=tk.LEFT, fill=tk.Y, padx=10, pady=10)
+        # Listbox for income category selection
+        income_listbox_frame = ttk.Frame(selection_window)
+        income_listbox_frame.grid(row=0, column=0, padx=10, pady=10)
 
-        ttk.Label(listbox_frame, text="Select Categories:").pack()
-        category_listbox = tk.Listbox(listbox_frame, selectmode=tk.MULTIPLE, height=15)
-        category_listbox.pack(fill=tk.BOTH, expand=True)
+        ttk.Label(income_listbox_frame, text="Select Income Categories:").grid(row=0, column=0)
+        income_category_listbox = tk.Listbox(income_listbox_frame, selectmode=tk.MULTIPLE, height=15)
+        income_category_listbox.grid(row=1, column=0, sticky="nsew")
 
-        for category in all_categories:
-            category_listbox.insert(tk.END, category)
+        for category in all_categories_income:
+            income_category_listbox.insert(tk.END, category)
+
+        # Listbox for expense category selection
+        expense_listbox_frame = ttk.Frame(selection_window)
+        expense_listbox_frame.grid(row=0, column=1, padx=10, pady=10)
+
+        ttk.Label(expense_listbox_frame, text="Select Expense Categories:").grid(row=0, column=0)
+        expense_category_listbox = tk.Listbox(expense_listbox_frame, selectmode=tk.MULTIPLE, height=15)
+        expense_category_listbox.grid(row=1, column=0, sticky="nsew")
+
+        for category in all_categories_expense:
+            expense_category_listbox.insert(tk.END, category)
 
         # Button to confirm selection and show graph
         def show_selected_graph():
-            selected_indices = category_listbox.curselection()
-            selected_categories = [category_listbox.get(i) for i in selected_indices]
+            selected_income_indices = income_category_listbox.curselection()
+            selected_income_categories = [income_category_listbox.get(i) for i in selected_income_indices]
+
+            selected_expense_indices = expense_category_listbox.curselection()
+            selected_expense_categories = [expense_category_listbox.get(i) for i in selected_expense_indices]
 
             # Create a new Toplevel window for the graph
             graph_window = tk.Toplevel(selection_window)
@@ -894,45 +909,49 @@ class FinanceTracker:
             fig = Figure(figsize=(8, 6), dpi=100)
             ax = fig.add_subplot(111)
 
-            # Prepare data for the selected categories
-            values = []
-            for category in selected_categories:
+            # Prepare data for the selected income categories
+            income_values = []
+            for category in selected_income_categories:
                 total = sum(monthly_data[month].get(category, 0) for month in months)
-                values.append(total)
+                income_values.append(total)
+
+            # Prepare data for the selected expense categories
+            expense_values = []
+            for category in selected_expense_categories:
+                total = sum(monthly_data[month].get(category, 0) for month in months)
+                expense_values.append(total)
 
             # Check if there are values to plot
-            if not any(values):
+            if not any(income_values) and not any(expense_values):
                 messagebox.showwarning("Warning", "No data available for the selected categories.")
                 return
 
             # Plot data based on the selected chart type
-            if chart_type == "Bar Chart":
-                x = np.arange(len(months))  # the label locations
-                width = 0.8 / len(selected_categories)  # the width of the bars
+            if chart_type == "Pie Chart":
+                # Combine income and expense values for pie chart
+                total_income = sum(income_values)
+                total_expense = sum(expense_values)
+                labels = selected_income_categories + selected_expense_categories
+                sizes = income_values + expense_values
 
-                for i, category in enumerate(selected_categories):
-                    ax.bar(x + i * width, [monthly_data[month].get(category, 0) for month in months], width, label=category)
-                ax.set_xlabel('Month')
-                ax.set_ylabel('Amount')
-                
-            elif chart_type == "Line Graph":
-                for category in selected_categories:
-                    ax.plot(months, [monthly_data[month].get(category, 0) for month in months], label=category)
-                ax.set_xlabel('Month')
-                ax.set_ylabel('Amount')
-                
-            elif chart_type == "Area Chart":
-                for category in selected_categories:
-                    ax.fill_between(months, [monthly_data[month].get(category, 0) for month in months], label=category, alpha=0.5)
-                ax.set_xlabel('Month')
-                ax.set_ylabel('Amount')
-                
-            elif chart_type == "Pie Chart":
-                # Prepare data for pie chart
-                ax.pie(values, labels=selected_categories, autopct='%1.1f%%', startangle=90)
+                ax.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90)
                 ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
-            ax.set_title('Monthly by Category')
+            else:
+                x = np.arange(len(months))  # the label locations
+                width = 0.35  # the width of the bars
+
+                # Plot income categories
+                for i, category in enumerate(selected_income_categories):
+                    ax.bar(x - width/2, [monthly_data[month].get(category, 0) for month in months], width, label=category)
+
+                # Plot expense categories
+                for i, category in enumerate(selected_expense_categories):
+                    ax.bar(x + width/2, [monthly_data[month].get(category, 0) for month in months], width, label=category)
+
+            ax.set_xlabel('Month')
+            ax.set_ylabel('Amount')
+            ax.set_title('Monthly Income and Expense by Category')
             ax.legend()
 
             # Display the figure in the new window
@@ -940,7 +959,8 @@ class FinanceTracker:
             canvas.draw()
             canvas.get_tk_widget().pack(side=tk.TOP, fill=tk.BOTH, expand=True)
 
-        ttk.Button(selection_window, text="Show Graph", command=show_selected_graph).pack(pady=10)
+        show_graph_button = ttk.Button(selection_window, text="Show Graph", command=show_selected_graph)
+        show_graph_button.grid(row=2, column=0, columnspan=2, pady=10)  # Use grid to place the button below the categories
 
         # Debugging: Confirm the listbox and button are packed
         print("Category selection window displayed.")
@@ -1050,6 +1070,41 @@ class FinanceTracker:
 
         except Exception as e:
             messagebox.showerror("Error", f"Failed to export records: {str(e)}")
+
+    def generate_records(self):
+        # Get the selected date range
+        start_date = self.start_date_var.get()
+        end_date = self.end_date_var.get()
+
+        # Print the records for debugging
+        print(f"Generating records from {start_date} to {end_date}")
+
+        # Call the show_records method to update the records
+        self.show_records("Income", self.start_date_var, self.end_date_var)  # Update income records
+        self.show_records("Expense", self.start_date_var, self.end_date_var)  # Update expense records
+        # You can also add any additional logic here if needed
+
+    def edit_selected_record(self):
+        selected_income = self.income_tree.selection()
+        selected_expense = self.expense_tree.selection()
+
+        if selected_income:
+            self.edit_record(self.income_tree, "Income")
+        elif selected_expense:
+            self.edit_record(self.expense_tree, "Expense")
+        else:
+            messagebox.showerror("Error", "Please select a record to edit.")
+
+    def delete_selected_record(self):
+        selected_income = self.income_tree.selection()
+        selected_expense = self.expense_tree.selection()
+
+        if selected_income:
+            self.delete_record(self.income_tree, "Income")
+        elif selected_expense:
+            self.delete_record(self.expense_tree, "Expense")
+        else:
+            messagebox.showerror("Error", "Please select a record to delete.")
 
 class CustomJSONDecoder(json.JSONDecoder):
     def __init__(self, *args, **kwargs):
