@@ -1,1 +1,1 @@
-# python_group_project
+# finance_tracker
