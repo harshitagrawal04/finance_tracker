@@ -1,0 +1,5490 @@
+[
+  {
+    "amount": 2137.79,
+    "category": "Healthcare",
+    "date": "2023-10-29",
+    "recurring": false,
+    "description": "Eye exam"
+  },
+  {
+    "amount": 1612.25,
+    "category": "Food",
+    "date": "2023-10-15",
+    "recurring": false,
+    "description": "Food truck"
+  },
+  {
+    "amount": 571.57,
+    "category": "Transportation",
+    "date": "2023-10-09",
+    "recurring": false,
+    "description": "Car rental"
+  },
+  {
+    "amount": 4418.23,
+    "category": "Transportation",
+    "date": "2023-10-10",
+    "recurring": false,
+    "description": "Fuel"
+  },
+  {
+    "amount": 1674.04,
+    "category": "Housing",
+    "date": "2023-10-31",
+    "recurring": false,
+    "description": "Home repairs"
+  },
+  {
+    "amount": 3892.61,
+    "category": "Housing",
+    "date": "2023-10-01",
+    "recurring": false,
+    "description": "Property taxes"
+  },
+  {
+    "amount": 291.85,
+    "category": "Healthcare",
+    "date": "2023-10-04",
+    "recurring": false,
+    "description": "Doctor visit"
+  },
+  {
+    "amount": 754.96,
+    "category": "Healthcare",
+    "date": "2023-10-26",
+    "recurring": false,
+    "description": "Therapy session"
+  },
+  {
+    "amount": 1486.01,
+    "category": "Housing",
+    "date": "2023-10-07",
+    "recurring": false,
+    "description": "Gardening supplies"
+  },
+  {
+    "amount": 2732.88,
+    "category": "Other",
+    "date": "2023-10-13",
+    "recurring": false,
+    "description": "Pet supplies"
+  },
+  {
+    "amount": 3050.96,
+    "category": "Housing",
+    "date": "2023-10-12",
+    "recurring": false,
+    "description": "Home repairs"
+  },
+  {
+    "amount": 562.39,
+    "category": "Housing",
+    "date": "2023-10-08",
+    "recurring": false,
+    "description": "Rent"
+  },
+  {
+    "amount": 4704.95,
+    "category": "Utilities",
+    "date": "2023-10-02",
+    "recurring": false,
+    "description": "Gas bill"
+  },
+  {
+    "amount": 2224.15,
+    "category": "Healthcare",
+    "date": "2023-10-05",
+    "recurring": false,
+    "description": "Doctor visit"
+  },
+  {
+    "amount": 2798.51,
+    "category": "Utilities",
+    "date": "2023-10-15",
+    "recurring": false,
+    "description": "Phone bill"
+  },
+  {
+    "amount": 1956.17,
+    "category": "Housing",
+    "date": "2023-10-02",
+    "recurring": false,
+    "description": "Cleaning supplies"
+  },
+  {
+    "amount": 2371.54,
+    "category": "Healthcare",
+    "date": "2023-10-18",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 1535.21,
+    "category": "Other",
+    "date": "2023-10-13",
+    "recurring": false,
+    "description": "Subscription box"
+  },
+  {
+    "amount": 4242.96,
+    "category": "Healthcare",
+    "date": "2023-10-01",
+    "recurring": false,
+    "description": "Doctor visit"
+  },
+  {
+    "amount": 1532.18,
+    "category": "Entertainment",
+    "date": "2023-10-04",
+    "recurring": false,
+    "description": "Books"
+  },
+  {
+    "amount": 253.29,
+    "category": "Transportation",
+    "date": "2023-10-12",
+    "recurring": false,
+    "description": "Taxi ride"
+  },
+  {
+    "amount": 2168.5,
+    "category": "Food",
+    "date": "2023-10-23",
+    "recurring": false,
+    "description": "Groceries"
+  },
+  {
+    "amount": 831.96,
+    "category": "Other",
+    "date": "2023-10-21",
+    "recurring": false,
+    "description": "Subscription box"
+  },
+  {
+    "amount": 332.65,
+    "category": "Food",
+    "date": "2023-10-09",
+    "recurring": false,
+    "description": "Farmers market"
+  },
+  {
+    "amount": 1187.82,
+    "category": "Housing",
+    "date": "2023-10-03",
+    "recurring": false,
+    "description": "Pest control"
+  },
+  {
+    "amount": 388.26,
+    "category": "Utilities",
+    "date": "2023-10-12",
+    "recurring": false,
+    "description": "Trash collection"
+  },
+  {
+    "amount": 2608.86,
+    "category": "Education",
+    "date": "2023-10-24",
+    "recurring": false,
+    "description": "Educational software"
+  },
+  {
+    "amount": 4829.77,
+    "category": "Food",
+    "date": "2023-10-17",
+    "recurring": false,
+    "description": "Snacks"
+  },
+  {
+    "amount": 659.68,
+    "category": "Housing",
+    "date": "2023-10-02",
+    "recurring": false,
+    "description": "Home decor"
+  },
+  {
+    "amount": 4995.14,
+    "category": "Utilities",
+    "date": "2023-10-02",
+    "recurring": false,
+    "description": "Streaming services"
+  },
+  {
+    "amount": 1652.39,
+    "category": "Healthcare",
+    "date": "2023-10-18",
+    "recurring": false,
+    "description": "Urgent care visit"
+  },
+  {
+    "amount": 1071.1,
+    "category": "Housing",
+    "date": "2023-10-08",
+    "recurring": false,
+    "description": "Home security system"
+  },
+  {
+    "amount": 2202.1,
+    "category": "Healthcare",
+    "date": "2023-10-20",
+    "recurring": false,
+    "description": "Doctor visit"
+  },
+  {
+    "amount": 1369.26,
+    "category": "Entertainment",
+    "date": "2023-10-01",
+    "recurring": false,
+    "description": "Concert tickets"
+  },
+  {
+    "amount": 3868.41,
+    "category": "Housing",
+    "date": "2023-10-12",
+    "recurring": false,
+    "description": "Pest control"
+  },
+  {
+    "amount": 3910.19,
+    "category": "Transportation",
+    "date": "2023-10-06",
+    "recurring": false,
+    "description": "Taxi ride"
+  },
+  {
+    "amount": 3609.35,
+    "category": "Transportation",
+    "date": "2023-10-02",
+    "recurring": false,
+    "description": "Vehicle registration"
+  },
+  {
+    "amount": 1095.1,
+    "category": "Transportation",
+    "date": "2023-10-17",
+    "recurring": false,
+    "description": "Tire replacement"
+  },
+  {
+    "amount": 362.36,
+    "category": "Housing",
+    "date": "2023-10-16",
+    "recurring": false,
+    "description": "Home repairs"
+  },
+  {
+    "amount": 4878.11,
+    "category": "Food",
+    "date": "2023-10-15",
+    "recurring": false,
+    "description": "Fast food"
+  },
+  {
+    "amount": 2358.54,
+    "category": "Transportation",
+    "date": "2023-10-21",
+    "recurring": false,
+    "description": "Car maintenance"
+  },
+  {
+    "amount": 909.45,
+    "category": "Entertainment",
+    "date": "2023-10-17",
+    "recurring": false,
+    "description": "Museum entry"
+  },
+  {
+    "amount": 3114.67,
+    "category": "Healthcare",
+    "date": "2023-10-20",
+    "recurring": false,
+    "description": "Eye exam"
+  },
+  {
+    "amount": 1262.95,
+    "category": "Housing",
+    "date": "2023-10-26",
+    "recurring": false,
+    "description": "Home repairs"
+  },
+  {
+    "amount": 3485.62,
+    "category": "Transportation",
+    "date": "2023-10-09",
+    "recurring": false,
+    "description": "Toll fees"
+  },
+  {
+    "amount": 3598.83,
+    "category": "Transportation",
+    "date": "2023-10-30",
+    "recurring": false,
+    "description": "Ride-sharing service"
+  },
+  {
+    "amount": 3911.98,
+    "category": "Food",
+    "date": "2023-10-18",
+    "recurring": false,
+    "description": "Delivery food"
+  },
+  {
+    "amount": 1407.26,
+    "category": "Food",
+    "date": "2023-10-08",
+    "recurring": false,
+    "description": "Restaurant meal"
+  },
+  {
+    "amount": 3891.22,
+    "category": "Other",
+    "date": "2023-10-17",
+    "recurring": false,
+    "description": "Legal services"
+  },
+  {
+    "amount": 241.57,
+    "category": "Utilities",
+    "date": "2023-10-14",
+    "recurring": false,
+    "description": "Internet bill"
+  },
+  {
+    "amount": 292.67,
+    "category": "Entertainment",
+    "date": "2023-10-30",
+    "recurring": false,
+    "description": "Video games"
+  },
+  {
+    "amount": 2539.08,
+    "category": "Healthcare",
+    "date": "2023-10-20",
+    "recurring": false,
+    "description": "Eye exam"
+  },
+  {
+    "amount": 4086.84,
+    "category": "Healthcare",
+    "date": "2023-10-19",
+    "recurring": false,
+    "description": "Doctor visit"
+  },
+  {
+    "amount": 3921.69,
+    "category": "Transportation",
+    "date": "2023-10-12",
+    "recurring": false,
+    "description": "Bike repair"
+  },
+  {
+    "amount": 1568.89,
+    "category": "Food",
+    "date": "2023-10-12",
+    "recurring": false,
+    "description": "Snacks"
+  },
+  {
+    "amount": 1761.51,
+    "category": "Utilities",
+    "date": "2023-10-02",
+    "recurring": false,
+    "description": "Water bill"
+  },
+  {
+    "amount": 2749.68,
+    "category": "Healthcare",
+    "date": "2023-10-11",
+    "recurring": false,
+    "description": "Dental checkup"
+  },
+  {
+    "amount": 1781.6,
+    "category": "Food",
+    "date": "2023-10-19",
+    "recurring": false,
+    "description": "Specialty food items"
+  },
+  {
+    "amount": 2299.85,
+    "category": "Healthcare",
+    "date": "2023-10-27",
+    "recurring": false,
+    "description": "Dental checkup"
+  },
+  {
+    "amount": 2789.94,
+    "category": "Healthcare",
+    "date": "2023-10-02",
+    "recurring": false,
+    "description": "Vitamins and supplements"
+  },
+  {
+    "amount": 1528.39,
+    "category": "Transportation",
+    "date": "2023-10-17",
+    "recurring": false,
+    "description": "Public transport"
+  },
+  {
+    "amount": 3416.56,
+    "category": "Other",
+    "date": "2023-10-04",
+    "recurring": false,
+    "description": "Accessories"
+  },
+  {
+    "amount": 166.32,
+    "category": "Entertainment",
+    "date": "2023-10-16",
+    "recurring": false,
+    "description": "Magazine subscription"
+  },
+  {
+    "amount": 2382.94,
+    "category": "Housing",
+    "date": "2023-10-15",
+    "recurring": false,
+    "description": "Gardening supplies"
+  },
+  {
+    "amount": 695.98,
+    "category": "Healthcare",
+    "date": "2023-10-25",
+    "recurring": false,
+    "description": "Eye exam"
+  },
+  {
+    "amount": 100.0,
+    "category": "Other",
+    "date": "2023-10-12",
+    "recurring": false,
+    "description": "Tax preparation"
+  },
+  {
+    "amount": 3609.68,
+    "category": "Utilities",
+    "date": "2023-11-05",
+    "recurring": false,
+    "description": "Gas bill"
+  },
+  {
+    "amount": 3689.31,
+    "category": "Transportation",
+    "date": "2023-11-03",
+    "recurring": false,
+    "description": "Fuel"
+  },
+  {
+    "amount": 3822.89,
+    "category": "Food",
+    "date": "2023-11-26",
+    "recurring": false,
+    "description": "Coffee shop"
+  },
+  {
+    "amount": 878.9,
+    "category": "Utilities",
+    "date": "2023-11-18",
+    "recurring": false,
+    "description": "Streaming services"
+  },
+  {
+    "amount": 4186.75,
+    "category": "Utilities",
+    "date": "2023-11-07",
+    "recurring": false,
+    "description": "Electricity bill"
+  },
+  {
+    "amount": 2930.95,
+    "category": "Entertainment",
+    "date": "2023-11-28",
+    "recurring": false,
+    "description": "Hobby supplies"
+  },
+  {
+    "amount": 741.72,
+    "category": "Healthcare",
+    "date": "2023-11-14",
+    "recurring": false,
+    "description": "Therapy session"
+  },
+  {
+    "amount": 576.19,
+    "category": "Utilities",
+    "date": "2023-11-08",
+    "recurring": false,
+    "description": "Cable TV"
+  },
+  {
+    "amount": 4862.92,
+    "category": "Food",
+    "date": "2023-11-22",
+    "recurring": false,
+    "description": "Groceries"
+  },
+  {
+    "amount": 1401.72,
+    "category": "Entertainment",
+    "date": "2023-11-09",
+    "recurring": false,
+    "description": "Concert tickets"
+  },
+  {
+    "amount": 726.8,
+    "category": "Housing",
+    "date": "2023-11-24",
+    "recurring": false,
+    "description": "Mortgage payment"
+  },
+  {
+    "amount": 670.71,
+    "category": "Education",
+    "date": "2023-11-21",
+    "recurring": false,
+    "description": "Online course"
+  },
+  {
+    "amount": 916.34,
+    "category": "Entertainment",
+    "date": "2023-11-10",
+    "recurring": false,
+    "description": "Sports event"
+  },
+  {
+    "amount": 4056.19,
+    "category": "Entertainment",
+    "date": "2023-11-20",
+    "recurring": false,
+    "description": "Hobby supplies"
+  },
+  {
+    "amount": 3774.75,
+    "category": "Utilities",
+    "date": "2023-11-30",
+    "recurring": false,
+    "description": "Sewer service"
+  },
+  {
+    "amount": 3234.94,
+    "category": "Food",
+    "date": "2023-11-06",
+    "recurring": false,
+    "description": "Fast food"
+  },
+  {
+    "amount": 885.11,
+    "category": "Housing",
+    "date": "2023-11-13",
+    "recurring": false,
+    "description": "Property taxes"
+  },
+  {
+    "amount": 4032.58,
+    "category": "Education",
+    "date": "2023-11-10",
+    "recurring": false,
+    "description": "Tuition"
+  },
+  {
+    "amount": 4022.72,
+    "category": "Transportation",
+    "date": "2023-11-18",
+    "recurring": false,
+    "description": "Public transport"
+  },
+  {
+    "amount": 4520.95,
+    "category": "Healthcare",
+    "date": "2023-11-13",
+    "recurring": false,
+    "description": "Health insurance premium"
+  },
+  {
+    "amount": 4927.56,
+    "category": "Transportation",
+    "date": "2023-11-17",
+    "recurring": false,
+    "description": "Car wash"
+  },
+  {
+    "amount": 3241.5,
+    "category": "Housing",
+    "date": "2023-11-27",
+    "recurring": false,
+    "description": "Furniture"
+  },
+  {
+    "amount": 645.29,
+    "category": "Food",
+    "date": "2023-11-17",
+    "recurring": false,
+    "description": "Coffee shop"
+  },
+  {
+    "amount": 2640.57,
+    "category": "Other",
+    "date": "2023-11-16",
+    "recurring": false,
+    "description": "Gifts"
+  },
+  {
+    "amount": 3430.72,
+    "category": "Utilities",
+    "date": "2023-11-04",
+    "recurring": false,
+    "description": "Trash collection"
+  },
+  {
+    "amount": 4356.34,
+    "category": "Entertainment",
+    "date": "2023-11-10",
+    "recurring": false,
+    "description": "Amusement park"
+  },
+  {
+    "amount": 2281.25,
+    "category": "Transportation",
+    "date": "2023-11-09",
+    "recurring": false,
+    "description": "Tire replacement"
+  },
+  {
+    "amount": 298.37,
+    "category": "Education",
+    "date": "2023-11-28",
+    "recurring": false,
+    "description": "Certification exam fees"
+  },
+  {
+    "amount": 861.78,
+    "category": "Other",
+    "date": "2023-11-23",
+    "recurring": false,
+    "description": "Clothing"
+  },
+  {
+    "amount": 2377.11,
+    "category": "Education",
+    "date": "2023-11-26",
+    "recurring": false,
+    "description": "Educational software"
+  },
+  {
+    "amount": 4159.57,
+    "category": "Entertainment",
+    "date": "2023-11-25",
+    "recurring": false,
+    "description": "Books"
+  },
+  {
+    "amount": 2796.98,
+    "category": "Utilities",
+    "date": "2023-11-22",
+    "recurring": false,
+    "description": "Internet bill"
+  },
+  {
+    "amount": 289.11,
+    "category": "Other",
+    "date": "2023-11-20",
+    "recurring": false,
+    "description": "Office supplies"
+  },
+  {
+    "amount": 3876.2,
+    "category": "Healthcare",
+    "date": "2023-11-21",
+    "recurring": false,
+    "description": "Doctor visit"
+  },
+  {
+    "amount": 3196.46,
+    "category": "Transportation",
+    "date": "2023-11-29",
+    "recurring": false,
+    "description": "Toll fees"
+  },
+  {
+    "amount": 567.27,
+    "category": "Transportation",
+    "date": "2023-11-23",
+    "recurring": false,
+    "description": "Tire replacement"
+  },
+  {
+    "amount": 3341.59,
+    "category": "Transportation",
+    "date": "2023-11-02",
+    "recurring": false,
+    "description": "Car rental"
+  },
+  {
+    "amount": 1382.27,
+    "category": "Other",
+    "date": "2023-11-15",
+    "recurring": false,
+    "description": "Legal services"
+  },
+  {
+    "amount": 3481.91,
+    "category": "Other",
+    "date": "2023-11-01",
+    "recurring": false,
+    "description": "Banking fees"
+  },
+  {
+    "amount": 2171.21,
+    "category": "Entertainment",
+    "date": "2023-11-21",
+    "recurring": false,
+    "description": "Video games"
+  },
+  {
+    "amount": 3703.48,
+    "category": "Other",
+    "date": "2023-11-30",
+    "recurring": false,
+    "description": "Charity donation"
+  },
+  {
+    "amount": 4159.13,
+    "category": "Education",
+    "date": "2023-11-11",
+    "recurring": false,
+    "description": "Online course"
+  },
+  {
+    "amount": 1598.21,
+    "category": "Transportation",
+    "date": "2023-11-11",
+    "recurring": false,
+    "description": "Ride-sharing service"
+  },
+  {
+    "amount": 877.45,
+    "category": "Housing",
+    "date": "2023-11-02",
+    "recurring": false,
+    "description": "Home decor"
+  },
+  {
+    "amount": 1657.84,
+    "category": "Entertainment",
+    "date": "2023-11-23",
+    "recurring": false,
+    "description": "Amusement park"
+  },
+  {
+    "amount": 1781.79,
+    "category": "Healthcare",
+    "date": "2023-11-27",
+    "recurring": false,
+    "description": "Specialist consultation"
+  },
+  {
+    "amount": 4938.34,
+    "category": "Education",
+    "date": "2023-11-26",
+    "recurring": false,
+    "description": "Tutoring"
+  },
+  {
+    "amount": 2330.7,
+    "category": "Education",
+    "date": "2023-11-13",
+    "recurring": false,
+    "description": "Certification exam fees"
+  },
+  {
+    "amount": 4279.35,
+    "category": "Food",
+    "date": "2023-11-19",
+    "recurring": false,
+    "description": "Farmers market"
+  },
+  {
+    "amount": 3619.61,
+    "category": "Entertainment",
+    "date": "2023-11-13",
+    "recurring": false,
+    "description": "Hobby supplies"
+  },
+  {
+    "amount": 4246.71,
+    "category": "Housing",
+    "date": "2023-11-03",
+    "recurring": false,
+    "description": "Gardening supplies"
+  },
+  {
+    "amount": 2138.7,
+    "category": "Housing",
+    "date": "2023-11-29",
+    "recurring": false,
+    "description": "Furniture"
+  },
+  {
+    "amount": 2183.37,
+    "category": "Housing",
+    "date": "2023-11-24",
+    "recurring": false,
+    "description": "Furniture"
+  },
+  {
+    "amount": 3520.96,
+    "category": "Other",
+    "date": "2023-11-07",
+    "recurring": false,
+    "description": "Office supplies"
+  },
+  {
+    "amount": 1488.4,
+    "category": "Transportation",
+    "date": "2023-11-15",
+    "recurring": false,
+    "description": "Car maintenance"
+  },
+  {
+    "amount": 509.0,
+    "category": "Entertainment",
+    "date": "2023-11-24",
+    "recurring": false,
+    "description": "Video games"
+  },
+  {
+    "amount": 100.0,
+    "category": "Transportation",
+    "date": "2023-11-28",
+    "recurring": false,
+    "description": "Taxi ride"
+  },
+  {
+    "amount": 1514.32,
+    "category": "Other",
+    "date": "2023-12-23",
+    "recurring": false,
+    "description": "Accessories"
+  },
+  {
+    "amount": 577.43,
+    "category": "Other",
+    "date": "2023-12-24",
+    "recurring": false,
+    "description": "Pet supplies"
+  },
+  {
+    "amount": 3289.41,
+    "category": "Education",
+    "date": "2023-12-01",
+    "recurring": false,
+    "description": "Textbooks"
+  },
+  {
+    "amount": 2570.95,
+    "category": "Transportation",
+    "date": "2023-12-02",
+    "recurring": false,
+    "description": "Car rental"
+  },
+  {
+    "amount": 3152.79,
+    "category": "Food",
+    "date": "2023-12-28",
+    "recurring": false,
+    "description": "Specialty food items"
+  },
+  {
+    "amount": 3064.76,
+    "category": "Housing",
+    "date": "2023-12-13",
+    "recurring": false,
+    "description": "Pest control"
+  },
+  {
+    "amount": 4710.92,
+    "category": "Housing",
+    "date": "2023-12-13",
+    "recurring": false,
+    "description": "Property taxes"
+  },
+  {
+    "amount": 1937.69,
+    "category": "Transportation",
+    "date": "2023-12-05",
+    "recurring": false,
+    "description": "Taxi ride"
+  },
+  {
+    "amount": 125.93,
+    "category": "Healthcare",
+    "date": "2023-12-13",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 3643.74,
+    "category": "Entertainment",
+    "date": "2023-12-24",
+    "recurring": false,
+    "description": "Movie tickets"
+  },
+  {
+    "amount": 4813.84,
+    "category": "Transportation",
+    "date": "2023-12-19",
+    "recurring": false,
+    "description": "Car rental"
+  },
+  {
+    "amount": 2251.59,
+    "category": "Utilities",
+    "date": "2023-12-16",
+    "recurring": false,
+    "description": "Streaming services"
+  },
+  {
+    "amount": 3712.17,
+    "category": "Entertainment",
+    "date": "2023-12-09",
+    "recurring": false,
+    "description": "Hobby supplies"
+  },
+  {
+    "amount": 521.92,
+    "category": "Utilities",
+    "date": "2023-12-02",
+    "recurring": false,
+    "description": "Internet bill"
+  },
+  {
+    "amount": 1208.82,
+    "category": "Other",
+    "date": "2023-12-20",
+    "recurring": false,
+    "description": "Legal services"
+  },
+  {
+    "amount": 255.6,
+    "category": "Food",
+    "date": "2023-12-03",
+    "recurring": false,
+    "description": "Ice cream"
+  },
+  {
+    "amount": 955.51,
+    "category": "Education",
+    "date": "2023-12-17",
+    "recurring": false,
+    "description": "School supplies"
+  },
+  {
+    "amount": 3463.78,
+    "category": "Transportation",
+    "date": "2023-12-06",
+    "recurring": false,
+    "description": "Car maintenance"
+  },
+  {
+    "amount": 3217.18,
+    "category": "Education",
+    "date": "2023-12-24",
+    "recurring": false,
+    "description": "Online course"
+  },
+  {
+    "amount": 3731.7,
+    "category": "Transportation",
+    "date": "2023-12-14",
+    "recurring": false,
+    "description": "Car rental"
+  },
+  {
+    "amount": 2879.61,
+    "category": "Transportation",
+    "date": "2023-12-27",
+    "recurring": false,
+    "description": "Car wash"
+  },
+  {
+    "amount": 4259.24,
+    "category": "Food",
+    "date": "2023-12-17",
+    "recurring": false,
+    "description": "Specialty food items"
+  },
+  {
+    "amount": 2594.27,
+    "category": "Other",
+    "date": "2023-12-01",
+    "recurring": false,
+    "description": "Haircut"
+  },
+  {
+    "amount": 555.88,
+    "category": "Entertainment",
+    "date": "2023-12-18",
+    "recurring": false,
+    "description": "Video games"
+  },
+  {
+    "amount": 4821.09,
+    "category": "Transportation",
+    "date": "2023-12-23",
+    "recurring": false,
+    "description": "Car rental"
+  },
+  {
+    "amount": 845.52,
+    "category": "Housing",
+    "date": "2023-12-21",
+    "recurring": false,
+    "description": "Home decor"
+  },
+  {
+    "amount": 864.02,
+    "category": "Food",
+    "date": "2023-12-23",
+    "recurring": false,
+    "description": "Groceries"
+  },
+  {
+    "amount": 2440.68,
+    "category": "Utilities",
+    "date": "2023-12-19",
+    "recurring": false,
+    "description": "Cable TV"
+  },
+  {
+    "amount": 2600.86,
+    "category": "Food",
+    "date": "2023-12-16",
+    "recurring": false,
+    "description": "Restaurant meal"
+  },
+  {
+    "amount": 720.61,
+    "category": "Education",
+    "date": "2023-12-20",
+    "recurring": false,
+    "description": "Tutoring"
+  },
+  {
+    "amount": 4938.85,
+    "category": "Healthcare",
+    "date": "2023-12-10",
+    "recurring": false,
+    "description": "Vitamins and supplements"
+  },
+  {
+    "amount": 4935.78,
+    "category": "Transportation",
+    "date": "2023-12-14",
+    "recurring": false,
+    "description": "Bike repair"
+  },
+  {
+    "amount": 3355.83,
+    "category": "Food",
+    "date": "2023-12-26",
+    "recurring": false,
+    "description": "Fast food"
+  },
+  {
+    "amount": 846.72,
+    "category": "Utilities",
+    "date": "2023-12-09",
+    "recurring": false,
+    "description": "Trash collection"
+  },
+  {
+    "amount": 1609.27,
+    "category": "Healthcare",
+    "date": "2023-12-18",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 3775.37,
+    "category": "Food",
+    "date": "2023-12-25",
+    "recurring": false,
+    "description": "Specialty food items"
+  },
+  {
+    "amount": 1440.39,
+    "category": "Other",
+    "date": "2023-12-21",
+    "recurring": false,
+    "description": "Accessories"
+  },
+  {
+    "amount": 2591.57,
+    "category": "Transportation",
+    "date": "2023-12-06",
+    "recurring": false,
+    "description": "Fuel"
+  },
+  {
+    "amount": 2171.59,
+    "category": "Healthcare",
+    "date": "2023-12-27",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 4940.34,
+    "category": "Education",
+    "date": "2023-12-18",
+    "recurring": false,
+    "description": "Professional development seminar"
+  },
+  {
+    "amount": 554.34,
+    "category": "Entertainment",
+    "date": "2023-12-02",
+    "recurring": false,
+    "description": "Hobby supplies"
+  },
+  {
+    "amount": 3754.4,
+    "category": "Entertainment",
+    "date": "2023-12-18",
+    "recurring": false,
+    "description": "Museum entry"
+  },
+  {
+    "amount": 333.97,
+    "category": "Housing",
+    "date": "2023-12-05",
+    "recurring": false,
+    "description": "Home repairs"
+  },
+  {
+    "amount": 2836.38,
+    "category": "Housing",
+    "date": "2023-12-12",
+    "recurring": false,
+    "description": "Home repairs"
+  },
+  {
+    "amount": 4710.86,
+    "category": "Other",
+    "date": "2023-12-06",
+    "recurring": false,
+    "description": "Haircut"
+  },
+  {
+    "amount": 3958.15,
+    "category": "Transportation",
+    "date": "2023-12-26",
+    "recurring": false,
+    "description": "Vehicle registration"
+  },
+  {
+    "amount": 4930.37,
+    "category": "Other",
+    "date": "2023-12-12",
+    "recurring": false,
+    "description": "Charity donation"
+  },
+  {
+    "amount": 1486.04,
+    "category": "Other",
+    "date": "2023-12-02",
+    "recurring": false,
+    "description": "Haircut"
+  },
+  {
+    "amount": 828.78,
+    "category": "Other",
+    "date": "2023-12-07",
+    "recurring": false,
+    "description": "Charity donation"
+  },
+  {
+    "amount": 3391.91,
+    "category": "Transportation",
+    "date": "2023-12-11",
+    "recurring": false,
+    "description": "Ride-sharing service"
+  },
+  {
+    "amount": 3715.14,
+    "category": "Entertainment",
+    "date": "2023-12-14",
+    "recurring": false,
+    "description": "Books"
+  },
+  {
+    "amount": 4027.89,
+    "category": "Transportation",
+    "date": "2023-12-21",
+    "recurring": false,
+    "description": "Ride-sharing service"
+  },
+  {
+    "amount": 2160.62,
+    "category": "Transportation",
+    "date": "2023-12-08",
+    "recurring": false,
+    "description": "Toll fees"
+  },
+  {
+    "amount": 3623.5,
+    "category": "Education",
+    "date": "2023-12-06",
+    "recurring": false,
+    "description": "Professional development seminar"
+  },
+  {
+    "amount": 2918.9,
+    "category": "Healthcare",
+    "date": "2023-12-29",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 4919.28,
+    "category": "Transportation",
+    "date": "2023-12-28",
+    "recurring": false,
+    "description": "Vehicle registration"
+  },
+  {
+    "amount": 1337.74,
+    "category": "Entertainment",
+    "date": "2023-12-26",
+    "recurring": false,
+    "description": "Vacation expenses"
+  },
+  {
+    "amount": 4886.3,
+    "category": "Entertainment",
+    "date": "2023-12-03",
+    "recurring": false,
+    "description": "Books"
+  },
+  {
+    "amount": 204.16,
+    "category": "Healthcare",
+    "date": "2023-12-20",
+    "recurring": false,
+    "description": "Health insurance premium"
+  },
+  {
+    "amount": 2741.47,
+    "category": "Other",
+    "date": "2023-12-12",
+    "recurring": false,
+    "description": "Tax preparation"
+  },
+  {
+    "amount": 4610.86,
+    "category": "Utilities",
+    "date": "2023-12-02",
+    "recurring": false,
+    "description": "Water bill"
+  },
+  {
+    "amount": 1790.38,
+    "category": "Healthcare",
+    "date": "2024-01-17",
+    "recurring": false,
+    "description": "Therapy session"
+  },
+  {
+    "amount": 2796.97,
+    "category": "Housing",
+    "date": "2024-01-24",
+    "recurring": false,
+    "description": "Rent"
+  },
+  {
+    "amount": 2343.96,
+    "category": "Transportation",
+    "date": "2024-01-30",
+    "recurring": false,
+    "description": "Car maintenance"
+  },
+  {
+    "amount": 2283.56,
+    "category": "Transportation",
+    "date": "2024-01-31",
+    "recurring": false,
+    "description": "Car wash"
+  },
+  {
+    "amount": 3217.34,
+    "category": "Healthcare",
+    "date": "2024-01-16",
+    "recurring": false,
+    "description": "Vitamins and supplements"
+  },
+  {
+    "amount": 3291.44,
+    "category": "Housing",
+    "date": "2024-01-31",
+    "recurring": false,
+    "description": "Home repairs"
+  },
+  {
+    "amount": 757.11,
+    "category": "Education",
+    "date": "2024-01-28",
+    "recurring": false,
+    "description": "Professional development seminar"
+  },
+  {
+    "amount": 3978.11,
+    "category": "Housing",
+    "date": "2024-01-21",
+    "recurring": false,
+    "description": "Home decor"
+  },
+  {
+    "amount": 4873.83,
+    "category": "Other",
+    "date": "2024-01-19",
+    "recurring": false,
+    "description": "Haircut"
+  },
+  {
+    "amount": 4672.73,
+    "category": "Other",
+    "date": "2024-01-17",
+    "recurring": false,
+    "description": "Tax preparation"
+  },
+  {
+    "amount": 3579.55,
+    "category": "Transportation",
+    "date": "2024-01-13",
+    "recurring": false,
+    "description": "Fuel"
+  },
+  {
+    "amount": 3916.88,
+    "category": "Education",
+    "date": "2024-01-18",
+    "recurring": false,
+    "description": "Online course"
+  },
+  {
+    "amount": 568.1,
+    "category": "Food",
+    "date": "2024-01-26",
+    "recurring": false,
+    "description": "Snacks"
+  },
+  {
+    "amount": 918.81,
+    "category": "Education",
+    "date": "2024-01-01",
+    "recurring": false,
+    "description": "Online course"
+  },
+  {
+    "amount": 3878.15,
+    "category": "Education",
+    "date": "2024-01-08",
+    "recurring": false,
+    "description": "Textbooks"
+  },
+  {
+    "amount": 3454.47,
+    "category": "Transportation",
+    "date": "2024-01-30",
+    "recurring": false,
+    "description": "Car rental"
+  },
+  {
+    "amount": 1816.77,
+    "category": "Education",
+    "date": "2024-01-30",
+    "recurring": false,
+    "description": "School supplies"
+  },
+  {
+    "amount": 4004.82,
+    "category": "Transportation",
+    "date": "2024-01-21",
+    "recurring": false,
+    "description": "Tire replacement"
+  },
+  {
+    "amount": 4405.05,
+    "category": "Utilities",
+    "date": "2024-01-14",
+    "recurring": false,
+    "description": "Electricity bill"
+  },
+  {
+    "amount": 4827.12,
+    "category": "Other",
+    "date": "2024-01-27",
+    "recurring": false,
+    "description": "Haircut"
+  },
+  {
+    "amount": 1356.0,
+    "category": "Housing",
+    "date": "2024-01-02",
+    "recurring": false,
+    "description": "Home insurance"
+  },
+  {
+    "amount": 3847.21,
+    "category": "Housing",
+    "date": "2024-01-13",
+    "recurring": false,
+    "description": "Pest control"
+  },
+  {
+    "amount": 1308.76,
+    "category": "Entertainment",
+    "date": "2024-01-15",
+    "recurring": false,
+    "description": "Museum entry"
+  },
+  {
+    "amount": 1893.56,
+    "category": "Utilities",
+    "date": "2024-01-22",
+    "recurring": false,
+    "description": "Streaming services"
+  },
+  {
+    "amount": 3504.19,
+    "category": "Housing",
+    "date": "2024-01-14",
+    "recurring": false,
+    "description": "Mortgage payment"
+  },
+  {
+    "amount": 1817.89,
+    "category": "Transportation",
+    "date": "2024-01-26",
+    "recurring": false,
+    "description": "Ride-sharing service"
+  },
+  {
+    "amount": 4276.93,
+    "category": "Entertainment",
+    "date": "2024-01-23",
+    "recurring": false,
+    "description": "Hobby supplies"
+  },
+  {
+    "amount": 787.77,
+    "category": "Transportation",
+    "date": "2024-01-27",
+    "recurring": false,
+    "description": "Fuel"
+  },
+  {
+    "amount": 1043.79,
+    "category": "Education",
+    "date": "2024-01-25",
+    "recurring": false,
+    "description": "Educational software"
+  },
+  {
+    "amount": 411.61,
+    "category": "Transportation",
+    "date": "2024-01-27",
+    "recurring": false,
+    "description": "Tire replacement"
+  },
+  {
+    "amount": 387.75,
+    "category": "Food",
+    "date": "2024-01-03",
+    "recurring": false,
+    "description": "Bakery"
+  },
+  {
+    "amount": 1008.91,
+    "category": "Utilities",
+    "date": "2024-01-16",
+    "recurring": false,
+    "description": "Trash collection"
+  },
+  {
+    "amount": 2476.91,
+    "category": "Food",
+    "date": "2024-01-05",
+    "recurring": false,
+    "description": "Delivery food"
+  },
+  {
+    "amount": 4062.16,
+    "category": "Education",
+    "date": "2024-01-17",
+    "recurring": false,
+    "description": "Certification exam fees"
+  },
+  {
+    "amount": 2394.16,
+    "category": "Housing",
+    "date": "2024-01-30",
+    "recurring": false,
+    "description": "Home security system"
+  },
+  {
+    "amount": 379.95,
+    "category": "Other",
+    "date": "2024-01-27",
+    "recurring": false,
+    "description": "Charity donation"
+  },
+  {
+    "amount": 2908.18,
+    "category": "Healthcare",
+    "date": "2024-01-05",
+    "recurring": false,
+    "description": "Health insurance premium"
+  },
+  {
+    "amount": 3027.87,
+    "category": "Entertainment",
+    "date": "2024-01-04",
+    "recurring": false,
+    "description": "Video games"
+  },
+  {
+    "amount": 4365.91,
+    "category": "Utilities",
+    "date": "2024-01-11",
+    "recurring": false,
+    "description": "Sewer service"
+  },
+  {
+    "amount": 4420.53,
+    "category": "Housing",
+    "date": "2024-01-30",
+    "recurring": false,
+    "description": "Property taxes"
+  },
+  {
+    "amount": 3662.8,
+    "category": "Housing",
+    "date": "2024-01-23",
+    "recurring": false,
+    "description": "Pest control"
+  },
+  {
+    "amount": 3314.97,
+    "category": "Education",
+    "date": "2024-01-21",
+    "recurring": false,
+    "description": "Certification exam fees"
+  },
+  {
+    "amount": 2782.5,
+    "category": "Entertainment",
+    "date": "2024-01-19",
+    "recurring": false,
+    "description": "Vacation expenses"
+  },
+  {
+    "amount": 4155.84,
+    "category": "Transportation",
+    "date": "2024-01-03",
+    "recurring": false,
+    "description": "Ride-sharing service"
+  },
+  {
+    "amount": 4718.08,
+    "category": "Education",
+    "date": "2024-01-29",
+    "recurring": false,
+    "description": "Online course"
+  },
+  {
+    "amount": 912.72,
+    "category": "Utilities",
+    "date": "2024-01-31",
+    "recurring": false,
+    "description": "Cable TV"
+  },
+  {
+    "amount": 1711.32,
+    "category": "Food",
+    "date": "2024-01-06",
+    "recurring": false,
+    "description": "Restaurant meal"
+  },
+  {
+    "amount": 1655.82,
+    "category": "Entertainment",
+    "date": "2024-01-11",
+    "recurring": false,
+    "description": "Movie tickets"
+  },
+  {
+    "amount": 2447.92,
+    "category": "Food",
+    "date": "2024-01-07",
+    "recurring": false,
+    "description": "Ice cream"
+  },
+  {
+    "amount": 2720.0,
+    "category": "Healthcare",
+    "date": "2024-01-22",
+    "recurring": false,
+    "description": "Doctor visit"
+  },
+  {
+    "amount": 4274.89,
+    "category": "Transportation",
+    "date": "2024-01-01",
+    "recurring": false,
+    "description": "Vehicle registration"
+  },
+  {
+    "amount": 2305.74,
+    "category": "Other",
+    "date": "2024-01-15",
+    "recurring": false,
+    "description": "Subscription box"
+  },
+  {
+    "amount": 855.36,
+    "category": "Education",
+    "date": "2024-01-22",
+    "recurring": false,
+    "description": "Tuition"
+  },
+  {
+    "amount": 2391.71,
+    "category": "Food",
+    "date": "2024-01-20",
+    "recurring": false,
+    "description": "Restaurant meal"
+  },
+  {
+    "amount": 320.07,
+    "category": "Transportation",
+    "date": "2024-01-10",
+    "recurring": false,
+    "description": "Car rental"
+  },
+  {
+    "amount": 871.75,
+    "category": "Other",
+    "date": "2024-01-13",
+    "recurring": false,
+    "description": "Subscription box"
+  },
+  {
+    "amount": 2920.85,
+    "category": "Transportation",
+    "date": "2024-01-05",
+    "recurring": false,
+    "description": "Taxi ride"
+  },
+  {
+    "amount": 1369.21,
+    "category": "Healthcare",
+    "date": "2024-01-29",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 1961.32,
+    "category": "Transportation",
+    "date": "2024-01-23",
+    "recurring": false,
+    "description": "Car maintenance"
+  },
+  {
+    "amount": 4080.69,
+    "category": "Housing",
+    "date": "2024-01-11",
+    "recurring": false,
+    "description": "Home repairs"
+  },
+  {
+    "amount": 4270.55,
+    "category": "Food",
+    "date": "2024-01-16",
+    "recurring": false,
+    "description": "Bakery"
+  },
+  {
+    "amount": 1196.43,
+    "category": "Education",
+    "date": "2024-01-31",
+    "recurring": false,
+    "description": "Tutoring"
+  },
+  {
+    "amount": 207.51,
+    "category": "Food",
+    "date": "2024-02-29",
+    "recurring": false,
+    "description": "Coffee shop"
+  },
+  {
+    "amount": 4621.18,
+    "category": "Food",
+    "date": "2024-02-10",
+    "recurring": false,
+    "description": "Cooking ingredients"
+  },
+  {
+    "amount": 516.78,
+    "category": "Housing",
+    "date": "2024-02-26",
+    "recurring": false,
+    "description": "Mortgage payment"
+  },
+  {
+    "amount": 3254.99,
+    "category": "Education",
+    "date": "2024-02-06",
+    "recurring": false,
+    "description": "Educational software"
+  },
+  {
+    "amount": 1860.16,
+    "category": "Entertainment",
+    "date": "2024-02-03",
+    "recurring": false,
+    "description": "Books"
+  },
+  {
+    "amount": 4247.29,
+    "category": "Transportation",
+    "date": "2024-02-01",
+    "recurring": false,
+    "description": "Tire replacement"
+  },
+  {
+    "amount": 3955.19,
+    "category": "Education",
+    "date": "2024-02-05",
+    "recurring": false,
+    "description": "School supplies"
+  },
+  {
+    "amount": 3610.83,
+    "category": "Education",
+    "date": "2024-02-22",
+    "recurring": false,
+    "description": "Tutoring"
+  },
+  {
+    "amount": 1286.12,
+    "category": "Healthcare",
+    "date": "2024-02-27",
+    "recurring": false,
+    "description": "Medication"
+  },
+  {
+    "amount": 128.96,
+    "category": "Other",
+    "date": "2024-02-03",
+    "recurring": false,
+    "description": "Postage"
+  },
+  {
+    "amount": 4610.23,
+    "category": "Utilities",
+    "date": "2024-02-19",
+    "recurring": false,
+    "description": "Trash collection"
+  },
+  {
+    "amount": 4918.13,
+    "category": "Transportation",
+    "date": "2024-02-15",
+    "recurring": false,
+    "description": "Vehicle registration"
+  },
+  {
+    "amount": 1504.62,
+    "category": "Transportation",
+    "date": "2024-02-26",
+    "recurring": false,
+    "description": "Toll fees"
+  },
+  {
+    "amount": 2764.98,
+    "category": "Entertainment",
+    "date": "2024-02-27",
+    "recurring": false,
+    "description": "Museum entry"
+  },
+  {
+    "amount": 3693.24,
+    "category": "Healthcare",
+    "date": "2024-02-13",
+    "recurring": false,
+    "description": "Eye exam"
+  },
+  {
+    "amount": 1872.37,
+    "category": "Other",
+    "date": "2024-02-29",
+    "recurring": false,
+    "description": "Pet supplies"
+  },
+  {
+    "amount": 613.79,
+    "category": "Other",
+    "date": "2024-02-15",
+    "recurring": false,
+    "description": "Gifts"
+  },
+  {
+    "amount": 3906.34,
+    "category": "Utilities",
+    "date": "2024-02-19",
+    "recurring": false,
+    "description": "Electricity bill"
+  },
+  {
+    "amount": 2727.04,
+    "category": "Entertainment",
+    "date": "2024-02-18",
+    "recurring": false,
+    "description": "Movie tickets"
+  },
+  {
+    "amount": 2308.09,
+    "category": "Utilities",
+    "date": "2024-02-05",
+    "recurring": false,
+    "description": "Internet bill"
+  },
+  {
+    "amount": 557.23,
+    "category": "Utilities",
+    "date": "2024-02-03",
+    "recurring": false,
+    "description": "Sewer service"
+  },
+  {
+    "amount": 1153.4,
+    "category": "Entertainment",
+    "date": "2024-02-18",
+    "recurring": false,
+    "description": "Vacation expenses"
+  },
+  {
+    "amount": 1473.76,
+    "category": "Other",
+    "date": "2024-02-02",
+    "recurring": false,
+    "description": "Postage"
+  },
+  {
+    "amount": 4655.26,
+    "category": "Healthcare",
+    "date": "2024-02-04",
+    "recurring": false,
+    "description": "Specialist consultation"
+  },
+  {
+    "amount": 309.26,
+    "category": "Entertainment",
+    "date": "2024-02-06",
+    "recurring": false,
+    "description": "Amusement park"
+  },
+  {
+    "amount": 4650.2,
+    "category": "Healthcare",
+    "date": "2024-02-07",
+    "recurring": false,
+    "description": "Vitamins and supplements"
+  },
+  {
+    "amount": 3136.59,
+    "category": "Housing",
+    "date": "2024-02-24",
+    "recurring": false,
+    "description": "Rent"
+  },
+  {
+    "amount": 4919.83,
+    "category": "Other",
+    "date": "2024-02-25",
+    "recurring": false,
+    "description": "Charity donation"
+  },
+  {
+    "amount": 4949.34,
+    "category": "Healthcare",
+    "date": "2024-02-27",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 2422.53,
+    "category": "Utilities",
+    "date": "2024-02-06",
+    "recurring": false,
+    "description": "Phone bill"
+  },
+  {
+    "amount": 3626.11,
+    "category": "Transportation",
+    "date": "2024-02-24",
+    "recurring": false,
+    "description": "Tire replacement"
+  },
+  {
+    "amount": 1965.6,
+    "category": "Healthcare",
+    "date": "2024-02-07",
+    "recurring": false,
+    "description": "Urgent care visit"
+  },
+  {
+    "amount": 2185.22,
+    "category": "Education",
+    "date": "2024-02-13",
+    "recurring": false,
+    "description": "Language learning app"
+  },
+  {
+    "amount": 4976.51,
+    "category": "Transportation",
+    "date": "2024-02-20",
+    "recurring": false,
+    "description": "Fuel"
+  },
+  {
+    "amount": 1397.11,
+    "category": "Utilities",
+    "date": "2024-02-10",
+    "recurring": false,
+    "description": "Water bill"
+  },
+  {
+    "amount": 4462.91,
+    "category": "Utilities",
+    "date": "2024-02-08",
+    "recurring": false,
+    "description": "Streaming services"
+  },
+  {
+    "amount": 465.42,
+    "category": "Entertainment",
+    "date": "2024-02-18",
+    "recurring": false,
+    "description": "Books"
+  },
+  {
+    "amount": 2496.72,
+    "category": "Housing",
+    "date": "2024-02-11",
+    "recurring": false,
+    "description": "Home insurance"
+  },
+  {
+    "amount": 1397.36,
+    "category": "Transportation",
+    "date": "2024-02-03",
+    "recurring": false,
+    "description": "Vehicle registration"
+  },
+  {
+    "amount": 2823.86,
+    "category": "Housing",
+    "date": "2024-02-10",
+    "recurring": false,
+    "description": "Gardening supplies"
+  },
+  {
+    "amount": 4562.99,
+    "category": "Other",
+    "date": "2024-02-05",
+    "recurring": false,
+    "description": "Tax preparation"
+  },
+  {
+    "amount": 3345.48,
+    "category": "Entertainment",
+    "date": "2024-02-01",
+    "recurring": false,
+    "description": "Movie tickets"
+  },
+  {
+    "amount": 4687.53,
+    "category": "Other",
+    "date": "2024-02-16",
+    "recurring": false,
+    "description": "Office supplies"
+  },
+  {
+    "amount": 2323.59,
+    "category": "Other",
+    "date": "2024-02-23",
+    "recurring": false,
+    "description": "Legal services"
+  },
+  {
+    "amount": 3325.47,
+    "category": "Entertainment",
+    "date": "2024-02-01",
+    "recurring": false,
+    "description": "Gym membership"
+  },
+  {
+    "amount": 356.34,
+    "category": "Healthcare",
+    "date": "2024-02-24",
+    "recurring": false,
+    "description": "Eye exam"
+  },
+  {
+    "amount": 4844.59,
+    "category": "Housing",
+    "date": "2024-02-12",
+    "recurring": false,
+    "description": "Cleaning supplies"
+  },
+  {
+    "amount": 2889.66,
+    "category": "Entertainment",
+    "date": "2024-02-09",
+    "recurring": false,
+    "description": "Magazine subscription"
+  },
+  {
+    "amount": 1452.01,
+    "category": "Healthcare",
+    "date": "2024-02-03",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 4987.26,
+    "category": "Food",
+    "date": "2024-02-14",
+    "recurring": false,
+    "description": "Groceries"
+  },
+  {
+    "amount": 783.58,
+    "category": "Utilities",
+    "date": "2024-02-02",
+    "recurring": false,
+    "description": "Gas bill"
+  },
+  {
+    "amount": 1630.46,
+    "category": "Other",
+    "date": "2024-02-27",
+    "recurring": false,
+    "description": "Tax preparation"
+  },
+  {
+    "amount": 3525.23,
+    "category": "Food",
+    "date": "2024-02-04",
+    "recurring": false,
+    "description": "Ice cream"
+  },
+  {
+    "amount": 1420.79,
+    "category": "Entertainment",
+    "date": "2024-02-12",
+    "recurring": false,
+    "description": "Movie tickets"
+  },
+  {
+    "amount": 2668.58,
+    "category": "Utilities",
+    "date": "2024-03-02",
+    "recurring": false,
+    "description": "Streaming services"
+  },
+  {
+    "amount": 1578.21,
+    "category": "Other",
+    "date": "2024-03-22",
+    "recurring": false,
+    "description": "Charity donation"
+  },
+  {
+    "amount": 4656.01,
+    "category": "Entertainment",
+    "date": "2024-03-19",
+    "recurring": false,
+    "description": "Hobby supplies"
+  },
+  {
+    "amount": 3899.51,
+    "category": "Utilities",
+    "date": "2024-03-31",
+    "recurring": false,
+    "description": "Water bill"
+  },
+  {
+    "amount": 3295.89,
+    "category": "Food",
+    "date": "2024-03-20",
+    "recurring": false,
+    "description": "Fast food"
+  },
+  {
+    "amount": 4745.17,
+    "category": "Other",
+    "date": "2024-03-07",
+    "recurring": false,
+    "description": "Pet supplies"
+  },
+  {
+    "amount": 564.31,
+    "category": "Transportation",
+    "date": "2024-03-28",
+    "recurring": false,
+    "description": "Toll fees"
+  },
+  {
+    "amount": 1792.07,
+    "category": "Transportation",
+    "date": "2024-03-08",
+    "recurring": false,
+    "description": "Car wash"
+  },
+  {
+    "amount": 2893.92,
+    "category": "Transportation",
+    "date": "2024-03-07",
+    "recurring": false,
+    "description": "Car maintenance"
+  },
+  {
+    "amount": 4909.96,
+    "category": "Other",
+    "date": "2024-03-29",
+    "recurring": false,
+    "description": "Haircut"
+  },
+  {
+    "amount": 2312.22,
+    "category": "Food",
+    "date": "2024-03-06",
+    "recurring": false,
+    "description": "Delivery food"
+  },
+  {
+    "amount": 3931.26,
+    "category": "Entertainment",
+    "date": "2024-03-30",
+    "recurring": false,
+    "description": "Movie tickets"
+  },
+  {
+    "amount": 2802.5,
+    "category": "Food",
+    "date": "2024-03-21",
+    "recurring": false,
+    "description": "Snacks"
+  },
+  {
+    "amount": 1996.35,
+    "category": "Transportation",
+    "date": "2024-03-13",
+    "recurring": false,
+    "description": "Ride-sharing service"
+  },
+  {
+    "amount": 4174.55,
+    "category": "Entertainment",
+    "date": "2024-03-02",
+    "recurring": false,
+    "description": "Books"
+  },
+  {
+    "amount": 1818.12,
+    "category": "Entertainment",
+    "date": "2024-03-31",
+    "recurring": false,
+    "description": "Museum entry"
+  },
+  {
+    "amount": 1553.46,
+    "category": "Healthcare",
+    "date": "2024-03-24",
+    "recurring": false,
+    "description": "Medication"
+  },
+  {
+    "amount": 2272.09,
+    "category": "Transportation",
+    "date": "2024-03-04",
+    "recurring": false,
+    "description": "Fuel"
+  },
+  {
+    "amount": 2618.72,
+    "category": "Food",
+    "date": "2024-03-14",
+    "recurring": false,
+    "description": "Farmers market"
+  },
+  {
+    "amount": 3257.92,
+    "category": "Entertainment",
+    "date": "2024-03-17",
+    "recurring": false,
+    "description": "Magazine subscription"
+  },
+  {
+    "amount": 1291.15,
+    "category": "Healthcare",
+    "date": "2024-03-18",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 4045.17,
+    "category": "Food",
+    "date": "2024-03-04",
+    "recurring": false,
+    "description": "Specialty food items"
+  },
+  {
+    "amount": 1815.74,
+    "category": "Food",
+    "date": "2024-03-26",
+    "recurring": false,
+    "description": "Food truck"
+  },
+  {
+    "amount": 3717.2,
+    "category": "Other",
+    "date": "2024-03-17",
+    "recurring": false,
+    "description": "Accessories"
+  },
+  {
+    "amount": 202.88,
+    "category": "Food",
+    "date": "2024-03-18",
+    "recurring": false,
+    "description": "Delivery food"
+  },
+  {
+    "amount": 3079.43,
+    "category": "Other",
+    "date": "2024-03-10",
+    "recurring": false,
+    "description": "Charity donation"
+  },
+  {
+    "amount": 607.61,
+    "category": "Utilities",
+    "date": "2024-03-23",
+    "recurring": false,
+    "description": "Gas bill"
+  },
+  {
+    "amount": 1009.63,
+    "category": "Other",
+    "date": "2024-03-16",
+    "recurring": false,
+    "description": "Haircut"
+  },
+  {
+    "amount": 368.08,
+    "category": "Entertainment",
+    "date": "2024-03-25",
+    "recurring": false,
+    "description": "Vacation expenses"
+  },
+  {
+    "amount": 4472.82,
+    "category": "Healthcare",
+    "date": "2024-03-29",
+    "recurring": false,
+    "description": "Health insurance premium"
+  },
+  {
+    "amount": 360.2,
+    "category": "Transportation",
+    "date": "2024-03-21",
+    "recurring": false,
+    "description": "Toll fees"
+  },
+  {
+    "amount": 1033.79,
+    "category": "Education",
+    "date": "2024-03-16",
+    "recurring": false,
+    "description": "Certification exam fees"
+  },
+  {
+    "amount": 1768.63,
+    "category": "Healthcare",
+    "date": "2024-03-04",
+    "recurring": false,
+    "description": "Therapy session"
+  },
+  {
+    "amount": 2875.33,
+    "category": "Utilities",
+    "date": "2024-03-26",
+    "recurring": false,
+    "description": "Electricity bill"
+  },
+  {
+    "amount": 4206.94,
+    "category": "Food",
+    "date": "2024-03-18",
+    "recurring": false,
+    "description": "Coffee shop"
+  },
+  {
+    "amount": 4028.64,
+    "category": "Education",
+    "date": "2024-03-15",
+    "recurring": false,
+    "description": "Tutoring"
+  },
+  {
+    "amount": 1468.9,
+    "category": "Food",
+    "date": "2024-03-22",
+    "recurring": false,
+    "description": "Restaurant meal"
+  },
+  {
+    "amount": 2762.75,
+    "category": "Housing",
+    "date": "2024-03-12",
+    "recurring": false,
+    "description": "Home insurance"
+  },
+  {
+    "amount": 2890.43,
+    "category": "Housing",
+    "date": "2024-03-30",
+    "recurring": false,
+    "description": "Home repairs"
+  },
+  {
+    "amount": 2030.17,
+    "category": "Food",
+    "date": "2024-03-06",
+    "recurring": false,
+    "description": "Restaurant meal"
+  },
+  {
+    "amount": 2899.79,
+    "category": "Healthcare",
+    "date": "2024-03-22",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 343.75,
+    "category": "Education",
+    "date": "2024-03-01",
+    "recurring": false,
+    "description": "Tuition"
+  },
+  {
+    "amount": 4950.03,
+    "category": "Housing",
+    "date": "2024-03-03",
+    "recurring": false,
+    "description": "Home repairs"
+  },
+  {
+    "amount": 2578.18,
+    "category": "Education",
+    "date": "2024-03-16",
+    "recurring": false,
+    "description": "Textbooks"
+  },
+  {
+    "amount": 3023.54,
+    "category": "Education",
+    "date": "2024-03-30",
+    "recurring": false,
+    "description": "Language learning app"
+  },
+  {
+    "amount": 2749.76,
+    "category": "Housing",
+    "date": "2024-03-25",
+    "recurring": false,
+    "description": "Rent"
+  },
+  {
+    "amount": 2077.07,
+    "category": "Utilities",
+    "date": "2024-03-08",
+    "recurring": false,
+    "description": "Trash collection"
+  },
+  {
+    "amount": 2906.37,
+    "category": "Transportation",
+    "date": "2024-03-15",
+    "recurring": false,
+    "description": "Public transport"
+  },
+  {
+    "amount": 305.1,
+    "category": "Housing",
+    "date": "2024-03-22",
+    "recurring": false,
+    "description": "Home decor"
+  },
+  {
+    "amount": 986.54,
+    "category": "Entertainment",
+    "date": "2024-03-25",
+    "recurring": false,
+    "description": "Movie tickets"
+  },
+  {
+    "amount": 631.51,
+    "category": "Housing",
+    "date": "2024-03-12",
+    "recurring": false,
+    "description": "Cleaning supplies"
+  },
+  {
+    "amount": 2029.4,
+    "category": "Utilities",
+    "date": "2024-03-28",
+    "recurring": false,
+    "description": "Sewer service"
+  },
+  {
+    "amount": 1025.49,
+    "category": "Other",
+    "date": "2024-03-04",
+    "recurring": false,
+    "description": "Accessories"
+  },
+  {
+    "amount": 2100.64,
+    "category": "Entertainment",
+    "date": "2024-03-05",
+    "recurring": false,
+    "description": "Books"
+  },
+  {
+    "amount": 4877.86,
+    "category": "Entertainment",
+    "date": "2024-03-20",
+    "recurring": false,
+    "description": "Gym membership"
+  },
+  {
+    "amount": 4074.38,
+    "category": "Housing",
+    "date": "2024-03-26",
+    "recurring": false,
+    "description": "Home decor"
+  },
+  {
+    "amount": 2087.81,
+    "category": "Transportation",
+    "date": "2024-03-11",
+    "recurring": false,
+    "description": "Tire replacement"
+  },
+  {
+    "amount": 666.77,
+    "category": "Transportation",
+    "date": "2024-03-21",
+    "recurring": false,
+    "description": "Public transport"
+  },
+  {
+    "amount": 614.04,
+    "category": "Utilities",
+    "date": "2024-03-04",
+    "recurring": false,
+    "description": "Phone bill"
+  },
+  {
+    "amount": 290.61,
+    "category": "Healthcare",
+    "date": "2024-03-18",
+    "recurring": false,
+    "description": "Doctor visit"
+  },
+  {
+    "amount": 2229.11,
+    "category": "Healthcare",
+    "date": "2024-03-13",
+    "recurring": false,
+    "description": "Dental checkup"
+  },
+  {
+    "amount": 3688.95,
+    "category": "Entertainment",
+    "date": "2024-03-10",
+    "recurring": false,
+    "description": "Video games"
+  },
+  {
+    "amount": 2806.29,
+    "category": "Healthcare",
+    "date": "2024-03-26",
+    "recurring": false,
+    "description": "Eye exam"
+  },
+  {
+    "amount": 4275.06,
+    "category": "Housing",
+    "date": "2024-03-06",
+    "recurring": false,
+    "description": "Home repairs"
+  },
+  {
+    "amount": 347.41,
+    "category": "Entertainment",
+    "date": "2024-03-09",
+    "recurring": false,
+    "description": "Amusement park"
+  },
+  {
+    "amount": 2470.5,
+    "category": "Other",
+    "date": "2024-03-14",
+    "recurring": false,
+    "description": "Clothing"
+  },
+  {
+    "amount": 100.0,
+    "category": "Entertainment",
+    "date": "2024-03-30",
+    "recurring": false,
+    "description": "Hobby supplies"
+  },
+  {
+    "amount": 3211.96,
+    "category": "Healthcare",
+    "date": "2024-04-29",
+    "recurring": false,
+    "description": "Therapy session"
+  },
+  {
+    "amount": 3629.57,
+    "category": "Healthcare",
+    "date": "2024-04-19",
+    "recurring": false,
+    "description": "Vitamins and supplements"
+  },
+  {
+    "amount": 2805.89,
+    "category": "Food",
+    "date": "2024-04-08",
+    "recurring": false,
+    "description": "Specialty food items"
+  },
+  {
+    "amount": 2107.63,
+    "category": "Education",
+    "date": "2024-04-01",
+    "recurring": false,
+    "description": "Tutoring"
+  },
+  {
+    "amount": 2849.07,
+    "category": "Utilities",
+    "date": "2024-04-07",
+    "recurring": false,
+    "description": "Sewer service"
+  },
+  {
+    "amount": 3960.62,
+    "category": "Entertainment",
+    "date": "2024-04-09",
+    "recurring": false,
+    "description": "Museum entry"
+  },
+  {
+    "amount": 4631.56,
+    "category": "Other",
+    "date": "2024-04-03",
+    "recurring": false,
+    "description": "Gifts"
+  },
+  {
+    "amount": 4842.55,
+    "category": "Food",
+    "date": "2024-04-13",
+    "recurring": false,
+    "description": "Restaurant meal"
+  },
+  {
+    "amount": 3833.03,
+    "category": "Housing",
+    "date": "2024-04-17",
+    "recurring": false,
+    "description": "Mortgage payment"
+  },
+  {
+    "amount": 101.52,
+    "category": "Food",
+    "date": "2024-04-28",
+    "recurring": false,
+    "description": "Snacks"
+  },
+  {
+    "amount": 388.02,
+    "category": "Utilities",
+    "date": "2024-04-23",
+    "recurring": false,
+    "description": "Internet bill"
+  },
+  {
+    "amount": 4415.18,
+    "category": "Transportation",
+    "date": "2024-04-16",
+    "recurring": false,
+    "description": "Tire replacement"
+  },
+  {
+    "amount": 173.45,
+    "category": "Entertainment",
+    "date": "2024-04-06",
+    "recurring": false,
+    "description": "Hobby supplies"
+  },
+  {
+    "amount": 830.1,
+    "category": "Entertainment",
+    "date": "2024-04-12",
+    "recurring": false,
+    "description": "Museum entry"
+  },
+  {
+    "amount": 3191.06,
+    "category": "Education",
+    "date": "2024-04-03",
+    "recurring": false,
+    "description": "Tuition"
+  },
+  {
+    "amount": 4334.12,
+    "category": "Housing",
+    "date": "2024-04-24",
+    "recurring": false,
+    "description": "Home decor"
+  },
+  {
+    "amount": 4907.36,
+    "category": "Healthcare",
+    "date": "2024-04-05",
+    "recurring": false,
+    "description": "Doctor visit"
+  },
+  {
+    "amount": 837.65,
+    "category": "Transportation",
+    "date": "2024-04-06",
+    "recurring": false,
+    "description": "Tire replacement"
+  },
+  {
+    "amount": 2482.41,
+    "category": "Other",
+    "date": "2024-04-14",
+    "recurring": false,
+    "description": "Postage"
+  },
+  {
+    "amount": 2796.33,
+    "category": "Healthcare",
+    "date": "2024-04-15",
+    "recurring": false,
+    "description": "Eye exam"
+  },
+  {
+    "amount": 3178.27,
+    "category": "Utilities",
+    "date": "2024-04-29",
+    "recurring": false,
+    "description": "Streaming services"
+  },
+  {
+    "amount": 4339.95,
+    "category": "Housing",
+    "date": "2024-04-09",
+    "recurring": false,
+    "description": "Gardening supplies"
+  },
+  {
+    "amount": 809.02,
+    "category": "Healthcare",
+    "date": "2024-04-29",
+    "recurring": false,
+    "description": "Doctor visit"
+  },
+  {
+    "amount": 1068.77,
+    "category": "Utilities",
+    "date": "2024-04-17",
+    "recurring": false,
+    "description": "Water bill"
+  },
+  {
+    "amount": 4754.27,
+    "category": "Transportation",
+    "date": "2024-04-26",
+    "recurring": false,
+    "description": "Car maintenance"
+  },
+  {
+    "amount": 3138.54,
+    "category": "Other",
+    "date": "2024-04-19",
+    "recurring": false,
+    "description": "Tax preparation"
+  },
+  {
+    "amount": 1215.82,
+    "category": "Education",
+    "date": "2024-04-16",
+    "recurring": false,
+    "description": "Language learning app"
+  },
+  {
+    "amount": 3881.97,
+    "category": "Other",
+    "date": "2024-04-24",
+    "recurring": false,
+    "description": "Haircut"
+  },
+  {
+    "amount": 1281.72,
+    "category": "Transportation",
+    "date": "2024-04-06",
+    "recurring": false,
+    "description": "Taxi ride"
+  },
+  {
+    "amount": 3264.75,
+    "category": "Utilities",
+    "date": "2024-04-13",
+    "recurring": false,
+    "description": "Phone bill"
+  },
+  {
+    "amount": 4705.34,
+    "category": "Healthcare",
+    "date": "2024-04-14",
+    "recurring": false,
+    "description": "Eye exam"
+  },
+  {
+    "amount": 448.55,
+    "category": "Transportation",
+    "date": "2024-04-26",
+    "recurring": false,
+    "description": "Parking fees"
+  },
+  {
+    "amount": 4210.15,
+    "category": "Housing",
+    "date": "2024-04-30",
+    "recurring": false,
+    "description": "Gardening supplies"
+  },
+  {
+    "amount": 3311.32,
+    "category": "Other",
+    "date": "2024-04-15",
+    "recurring": false,
+    "description": "Accessories"
+  },
+  {
+    "amount": 4482.75,
+    "category": "Housing",
+    "date": "2024-04-18",
+    "recurring": false,
+    "description": "Furniture"
+  },
+  {
+    "amount": 2042.41,
+    "category": "Other",
+    "date": "2024-04-06",
+    "recurring": false,
+    "description": "Subscription box"
+  },
+  {
+    "amount": 1939.48,
+    "category": "Healthcare",
+    "date": "2024-04-13",
+    "recurring": false,
+    "description": "Dental checkup"
+  },
+  {
+    "amount": 978.22,
+    "category": "Food",
+    "date": "2024-04-01",
+    "recurring": false,
+    "description": "Specialty food items"
+  },
+  {
+    "amount": 4572.84,
+    "category": "Food",
+    "date": "2024-04-26",
+    "recurring": false,
+    "description": "Fast food"
+  },
+  {
+    "amount": 1194.31,
+    "category": "Food",
+    "date": "2024-04-24",
+    "recurring": false,
+    "description": "Groceries"
+  },
+  {
+    "amount": 2345.72,
+    "category": "Other",
+    "date": "2024-04-21",
+    "recurring": false,
+    "description": "Office supplies"
+  },
+  {
+    "amount": 2790.46,
+    "category": "Utilities",
+    "date": "2024-04-21",
+    "recurring": false,
+    "description": "Cable TV"
+  },
+  {
+    "amount": 3782.17,
+    "category": "Transportation",
+    "date": "2024-04-22",
+    "recurring": false,
+    "description": "Public transport"
+  },
+  {
+    "amount": 2216.18,
+    "category": "Entertainment",
+    "date": "2024-04-07",
+    "recurring": false,
+    "description": "Video games"
+  },
+  {
+    "amount": 356.75,
+    "category": "Other",
+    "date": "2024-04-16",
+    "recurring": false,
+    "description": "Office supplies"
+  },
+  {
+    "amount": 4299.14,
+    "category": "Entertainment",
+    "date": "2024-04-15",
+    "recurring": false,
+    "description": "Movie tickets"
+  },
+  {
+    "amount": 4222.62,
+    "category": "Entertainment",
+    "date": "2024-04-29",
+    "recurring": false,
+    "description": "Books"
+  },
+  {
+    "amount": 2278.51,
+    "category": "Food",
+    "date": "2024-04-18",
+    "recurring": false,
+    "description": "Delivery food"
+  },
+  {
+    "amount": 4590.13,
+    "category": "Food",
+    "date": "2024-04-24",
+    "recurring": false,
+    "description": "Coffee shop"
+  },
+  {
+    "amount": 4106.32,
+    "category": "Transportation",
+    "date": "2024-04-18",
+    "recurring": false,
+    "description": "Car maintenance"
+  },
+  {
+    "amount": 142.54,
+    "category": "Healthcare",
+    "date": "2024-04-10",
+    "recurring": false,
+    "description": "Health insurance premium"
+  },
+  {
+    "amount": 1875.67,
+    "category": "Entertainment",
+    "date": "2024-04-26",
+    "recurring": false,
+    "description": "Video games"
+  },
+  {
+    "amount": 949.09,
+    "category": "Education",
+    "date": "2024-04-17",
+    "recurring": false,
+    "description": "Textbooks"
+  },
+  {
+    "amount": 1482.87,
+    "category": "Other",
+    "date": "2024-05-12",
+    "recurring": false,
+    "description": "Banking fees"
+  },
+  {
+    "amount": 2089.46,
+    "category": "Food",
+    "date": "2024-05-13",
+    "recurring": false,
+    "description": "Fast food"
+  },
+  {
+    "amount": 3073.1,
+    "category": "Utilities",
+    "date": "2024-05-14",
+    "recurring": false,
+    "description": "Water bill"
+  },
+  {
+    "amount": 563.96,
+    "category": "Utilities",
+    "date": "2024-05-01",
+    "recurring": false,
+    "description": "Gas bill"
+  },
+  {
+    "amount": 411.21,
+    "category": "Housing",
+    "date": "2024-05-03",
+    "recurring": false,
+    "description": "Furniture"
+  },
+  {
+    "amount": 3222.98,
+    "category": "Entertainment",
+    "date": "2024-05-13",
+    "recurring": false,
+    "description": "Gym membership"
+  },
+  {
+    "amount": 4535.64,
+    "category": "Transportation",
+    "date": "2024-05-28",
+    "recurring": false,
+    "description": "Car rental"
+  },
+  {
+    "amount": 2003.78,
+    "category": "Entertainment",
+    "date": "2024-05-01",
+    "recurring": false,
+    "description": "Museum entry"
+  },
+  {
+    "amount": 3033.37,
+    "category": "Food",
+    "date": "2024-05-21",
+    "recurring": false,
+    "description": "Farmers market"
+  },
+  {
+    "amount": 1596.5,
+    "category": "Utilities",
+    "date": "2024-05-14",
+    "recurring": false,
+    "description": "Cable TV"
+  },
+  {
+    "amount": 3728.93,
+    "category": "Utilities",
+    "date": "2024-05-31",
+    "recurring": false,
+    "description": "Trash collection"
+  },
+  {
+    "amount": 2470.88,
+    "category": "Healthcare",
+    "date": "2024-05-11",
+    "recurring": false,
+    "description": "Dental checkup"
+  },
+  {
+    "amount": 679.0,
+    "category": "Healthcare",
+    "date": "2024-05-16",
+    "recurring": false,
+    "description": "Vitamins and supplements"
+  },
+  {
+    "amount": 3223.08,
+    "category": "Education",
+    "date": "2024-05-19",
+    "recurring": false,
+    "description": "Tuition"
+  },
+  {
+    "amount": 2157.07,
+    "category": "Housing",
+    "date": "2024-05-04",
+    "recurring": false,
+    "description": "Gardening supplies"
+  },
+  {
+    "amount": 789.09,
+    "category": "Food",
+    "date": "2024-05-22",
+    "recurring": false,
+    "description": "Cooking ingredients"
+  },
+  {
+    "amount": 4857.26,
+    "category": "Education",
+    "date": "2024-05-01",
+    "recurring": false,
+    "description": "Textbooks"
+  },
+  {
+    "amount": 3791.2,
+    "category": "Education",
+    "date": "2024-05-04",
+    "recurring": false,
+    "description": "Certification exam fees"
+  },
+  {
+    "amount": 4623.39,
+    "category": "Entertainment",
+    "date": "2024-05-19",
+    "recurring": false,
+    "description": "Magazine subscription"
+  },
+  {
+    "amount": 1586.68,
+    "category": "Healthcare",
+    "date": "2024-05-07",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 3594.9,
+    "category": "Other",
+    "date": "2024-05-05",
+    "recurring": false,
+    "description": "Banking fees"
+  },
+  {
+    "amount": 2092.21,
+    "category": "Food",
+    "date": "2024-05-19",
+    "recurring": false,
+    "description": "Fast food"
+  },
+  {
+    "amount": 975.03,
+    "category": "Healthcare",
+    "date": "2024-05-20",
+    "recurring": false,
+    "description": "Therapy session"
+  },
+  {
+    "amount": 304.91,
+    "category": "Other",
+    "date": "2024-05-13",
+    "recurring": false,
+    "description": "Accessories"
+  },
+  {
+    "amount": 1670.62,
+    "category": "Other",
+    "date": "2024-05-21",
+    "recurring": false,
+    "description": "Office supplies"
+  },
+  {
+    "amount": 483.53,
+    "category": "Entertainment",
+    "date": "2024-05-05",
+    "recurring": false,
+    "description": "Amusement park"
+  },
+  {
+    "amount": 1437.94,
+    "category": "Housing",
+    "date": "2024-05-04",
+    "recurring": false,
+    "description": "Gardening supplies"
+  },
+  {
+    "amount": 2880.76,
+    "category": "Transportation",
+    "date": "2024-05-16",
+    "recurring": false,
+    "description": "Tire replacement"
+  },
+  {
+    "amount": 4578.41,
+    "category": "Transportation",
+    "date": "2024-05-16",
+    "recurring": false,
+    "description": "Car maintenance"
+  },
+  {
+    "amount": 3631.54,
+    "category": "Utilities",
+    "date": "2024-05-06",
+    "recurring": false,
+    "description": "Electricity bill"
+  },
+  {
+    "amount": 2007.82,
+    "category": "Entertainment",
+    "date": "2024-05-05",
+    "recurring": false,
+    "description": "Vacation expenses"
+  },
+  {
+    "amount": 3791.93,
+    "category": "Transportation",
+    "date": "2024-05-25",
+    "recurring": false,
+    "description": "Bike repair"
+  },
+  {
+    "amount": 2632.84,
+    "category": "Transportation",
+    "date": "2024-05-30",
+    "recurring": false,
+    "description": "Public transport"
+  },
+  {
+    "amount": 978.19,
+    "category": "Food",
+    "date": "2024-05-08",
+    "recurring": false,
+    "description": "Fast food"
+  },
+  {
+    "amount": 3984.54,
+    "category": "Education",
+    "date": "2024-05-24",
+    "recurring": false,
+    "description": "Textbooks"
+  },
+  {
+    "amount": 4064.34,
+    "category": "Transportation",
+    "date": "2024-05-18",
+    "recurring": false,
+    "description": "Parking fees"
+  },
+  {
+    "amount": 1964.01,
+    "category": "Transportation",
+    "date": "2024-05-13",
+    "recurring": false,
+    "description": "Tire replacement"
+  },
+  {
+    "amount": 3362.09,
+    "category": "Other",
+    "date": "2024-05-29",
+    "recurring": false,
+    "description": "Tax preparation"
+  },
+  {
+    "amount": 199.08,
+    "category": "Other",
+    "date": "2024-05-14",
+    "recurring": false,
+    "description": "Pet supplies"
+  },
+  {
+    "amount": 3941.3,
+    "category": "Food",
+    "date": "2024-05-14",
+    "recurring": false,
+    "description": "Specialty food items"
+  },
+  {
+    "amount": 3527.34,
+    "category": "Education",
+    "date": "2024-05-16",
+    "recurring": false,
+    "description": "Tutoring"
+  },
+  {
+    "amount": 346.74,
+    "category": "Other",
+    "date": "2024-05-31",
+    "recurring": false,
+    "description": "Clothing"
+  },
+  {
+    "amount": 4654.33,
+    "category": "Education",
+    "date": "2024-05-26",
+    "recurring": false,
+    "description": "Textbooks"
+  },
+  {
+    "amount": 2559.8,
+    "category": "Utilities",
+    "date": "2024-05-24",
+    "recurring": false,
+    "description": "Streaming services"
+  },
+  {
+    "amount": 4186.52,
+    "category": "Education",
+    "date": "2024-05-23",
+    "recurring": false,
+    "description": "Language learning app"
+  },
+  {
+    "amount": 1577.32,
+    "category": "Utilities",
+    "date": "2024-05-21",
+    "recurring": false,
+    "description": "Internet bill"
+  },
+  {
+    "amount": 4998.05,
+    "category": "Food",
+    "date": "2024-05-11",
+    "recurring": false,
+    "description": "Ice cream"
+  },
+  {
+    "amount": 1191.01,
+    "category": "Housing",
+    "date": "2024-05-02",
+    "recurring": false,
+    "description": "Cleaning supplies"
+  },
+  {
+    "amount": 2454.19,
+    "category": "Healthcare",
+    "date": "2024-05-19",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 441.23,
+    "category": "Transportation",
+    "date": "2024-05-20",
+    "recurring": false,
+    "description": "Vehicle registration"
+  },
+  {
+    "amount": 4059.96,
+    "category": "Food",
+    "date": "2024-05-28",
+    "recurring": false,
+    "description": "Fast food"
+  },
+  {
+    "amount": 2547.32,
+    "category": "Food",
+    "date": "2024-05-11",
+    "recurring": false,
+    "description": "Restaurant meal"
+  },
+  {
+    "amount": 168.55,
+    "category": "Education",
+    "date": "2024-05-25",
+    "recurring": false,
+    "description": "School supplies"
+  },
+  {
+    "amount": 4004.66,
+    "category": "Housing",
+    "date": "2024-05-26",
+    "recurring": false,
+    "description": "Furniture"
+  },
+  {
+    "amount": 827.96,
+    "category": "Healthcare",
+    "date": "2024-05-27",
+    "recurring": false,
+    "description": "Health insurance premium"
+  },
+  {
+    "amount": 1544.23,
+    "category": "Food",
+    "date": "2024-05-09",
+    "recurring": false,
+    "description": "Groceries"
+  },
+  {
+    "amount": 2479.77,
+    "category": "Healthcare",
+    "date": "2024-05-09",
+    "recurring": false,
+    "description": "Medication"
+  },
+  {
+    "amount": 355.08,
+    "category": "Transportation",
+    "date": "2024-05-01",
+    "recurring": false,
+    "description": "Ride-sharing service"
+  },
+  {
+    "amount": 1743.21,
+    "category": "Food",
+    "date": "2024-05-02",
+    "recurring": false,
+    "description": "Restaurant meal"
+  },
+  {
+    "amount": 2714.68,
+    "category": "Transportation",
+    "date": "2024-05-13",
+    "recurring": false,
+    "description": "Fuel"
+  },
+  {
+    "amount": 1736.68,
+    "category": "Other",
+    "date": "2024-05-30",
+    "recurring": false,
+    "description": "Tax preparation"
+  },
+  {
+    "amount": 1683.82,
+    "category": "Transportation",
+    "date": "2024-05-11",
+    "recurring": false,
+    "description": "Ride-sharing service"
+  },
+  {
+    "amount": 4372.14,
+    "category": "Other",
+    "date": "2024-05-02",
+    "recurring": false,
+    "description": "Banking fees"
+  },
+  {
+    "amount": 3435.07,
+    "category": "Entertainment",
+    "date": "2024-05-08",
+    "recurring": false,
+    "description": "Sports event"
+  },
+  {
+    "amount": 3939.07,
+    "category": "Transportation",
+    "date": "2024-05-31",
+    "recurring": false,
+    "description": "Public transport"
+  },
+  {
+    "amount": 330.95,
+    "category": "Utilities",
+    "date": "2024-06-03",
+    "recurring": false,
+    "description": "Trash collection"
+  },
+  {
+    "amount": 3963.5,
+    "category": "Utilities",
+    "date": "2024-06-22",
+    "recurring": false,
+    "description": "Cable TV"
+  },
+  {
+    "amount": 3276.18,
+    "category": "Entertainment",
+    "date": "2024-06-16",
+    "recurring": false,
+    "description": "Magazine subscription"
+  },
+  {
+    "amount": 1025.96,
+    "category": "Education",
+    "date": "2024-06-29",
+    "recurring": false,
+    "description": "Online course"
+  },
+  {
+    "amount": 3894.85,
+    "category": "Healthcare",
+    "date": "2024-06-13",
+    "recurring": false,
+    "description": "Doctor visit"
+  },
+  {
+    "amount": 962.06,
+    "category": "Transportation",
+    "date": "2024-06-15",
+    "recurring": false,
+    "description": "Tire replacement"
+  },
+  {
+    "amount": 615.87,
+    "category": "Housing",
+    "date": "2024-06-08",
+    "recurring": false,
+    "description": "Furniture"
+  },
+  {
+    "amount": 4388.71,
+    "category": "Other",
+    "date": "2024-06-07",
+    "recurring": false,
+    "description": "Shoes"
+  },
+  {
+    "amount": 2274.77,
+    "category": "Utilities",
+    "date": "2024-06-16",
+    "recurring": false,
+    "description": "Internet bill"
+  },
+  {
+    "amount": 3153.37,
+    "category": "Food",
+    "date": "2024-06-09",
+    "recurring": false,
+    "description": "Coffee shop"
+  },
+  {
+    "amount": 3469.92,
+    "category": "Housing",
+    "date": "2024-06-30",
+    "recurring": false,
+    "description": "Rent"
+  },
+  {
+    "amount": 1073.25,
+    "category": "Healthcare",
+    "date": "2024-06-16",
+    "recurring": false,
+    "description": "Specialist consultation"
+  },
+  {
+    "amount": 798.83,
+    "category": "Transportation",
+    "date": "2024-06-29",
+    "recurring": false,
+    "description": "Parking fees"
+  },
+  {
+    "amount": 2649.6,
+    "category": "Entertainment",
+    "date": "2024-06-20",
+    "recurring": false,
+    "description": "Theater show"
+  },
+  {
+    "amount": 3941.64,
+    "category": "Food",
+    "date": "2024-06-08",
+    "recurring": false,
+    "description": "Snacks"
+  },
+  {
+    "amount": 4115.21,
+    "category": "Education",
+    "date": "2024-06-27",
+    "recurring": false,
+    "description": "School supplies"
+  },
+  {
+    "amount": 3161.56,
+    "category": "Healthcare",
+    "date": "2024-06-23",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 656.82,
+    "category": "Transportation",
+    "date": "2024-06-25",
+    "recurring": false,
+    "description": "Car wash"
+  },
+  {
+    "amount": 4703.52,
+    "category": "Food",
+    "date": "2024-06-14",
+    "recurring": false,
+    "description": "Coffee shop"
+  },
+  {
+    "amount": 826.79,
+    "category": "Utilities",
+    "date": "2024-06-12",
+    "recurring": false,
+    "description": "Water bill"
+  },
+  {
+    "amount": 1142.12,
+    "category": "Education",
+    "date": "2024-06-29",
+    "recurring": false,
+    "description": "Online course"
+  },
+  {
+    "amount": 1114.04,
+    "category": "Education",
+    "date": "2024-06-12",
+    "recurring": false,
+    "description": "Tutoring"
+  },
+  {
+    "amount": 4472.55,
+    "category": "Transportation",
+    "date": "2024-06-08",
+    "recurring": false,
+    "description": "Public transport"
+  },
+  {
+    "amount": 2994.67,
+    "category": "Housing",
+    "date": "2024-06-21",
+    "recurring": false,
+    "description": "Cleaning supplies"
+  },
+  {
+    "amount": 3317.65,
+    "category": "Other",
+    "date": "2024-06-08",
+    "recurring": false,
+    "description": "Office supplies"
+  },
+  {
+    "amount": 414.41,
+    "category": "Other",
+    "date": "2024-06-16",
+    "recurring": false,
+    "description": "Accessories"
+  },
+  {
+    "amount": 2155.93,
+    "category": "Healthcare",
+    "date": "2024-06-03",
+    "recurring": false,
+    "description": "Eye exam"
+  },
+  {
+    "amount": 1657.07,
+    "category": "Housing",
+    "date": "2024-06-04",
+    "recurring": false,
+    "description": "Home decor"
+  },
+  {
+    "amount": 2174.74,
+    "category": "Healthcare",
+    "date": "2024-06-02",
+    "recurring": false,
+    "description": "Urgent care visit"
+  },
+  {
+    "amount": 556.1,
+    "category": "Healthcare",
+    "date": "2024-06-09",
+    "recurring": false,
+    "description": "Medication"
+  },
+  {
+    "amount": 3362.52,
+    "category": "Food",
+    "date": "2024-06-07",
+    "recurring": false,
+    "description": "Farmers market"
+  },
+  {
+    "amount": 3095.37,
+    "category": "Transportation",
+    "date": "2024-06-23",
+    "recurring": false,
+    "description": "Bike repair"
+  },
+  {
+    "amount": 2630.37,
+    "category": "Food",
+    "date": "2024-06-20",
+    "recurring": false,
+    "description": "Ice cream"
+  },
+  {
+    "amount": 4726.33,
+    "category": "Housing",
+    "date": "2024-06-23",
+    "recurring": false,
+    "description": "Property taxes"
+  },
+  {
+    "amount": 1379.09,
+    "category": "Education",
+    "date": "2024-06-15",
+    "recurring": false,
+    "description": "Educational software"
+  },
+  {
+    "amount": 941.79,
+    "category": "Healthcare",
+    "date": "2024-06-11",
+    "recurring": false,
+    "description": "Urgent care visit"
+  },
+  {
+    "amount": 810.31,
+    "category": "Food",
+    "date": "2024-06-07",
+    "recurring": false,
+    "description": "Food truck"
+  },
+  {
+    "amount": 1433.86,
+    "category": "Transportation",
+    "date": "2024-06-16",
+    "recurring": false,
+    "description": "Ride-sharing service"
+  },
+  {
+    "amount": 1981.52,
+    "category": "Other",
+    "date": "2024-06-26",
+    "recurring": false,
+    "description": "Accessories"
+  },
+  {
+    "amount": 1027.29,
+    "category": "Education",
+    "date": "2024-06-16",
+    "recurring": false,
+    "description": "Textbooks"
+  },
+  {
+    "amount": 2403.24,
+    "category": "Housing",
+    "date": "2024-06-10",
+    "recurring": false,
+    "description": "Home decor"
+  },
+  {
+    "amount": 1841.27,
+    "category": "Utilities",
+    "date": "2024-06-25",
+    "recurring": false,
+    "description": "Electricity bill"
+  },
+  {
+    "amount": 4596.33,
+    "category": "Healthcare",
+    "date": "2024-06-02",
+    "recurring": false,
+    "description": "Vitamins and supplements"
+  },
+  {
+    "amount": 4053.78,
+    "category": "Other",
+    "date": "2024-06-25",
+    "recurring": false,
+    "description": "Charity donation"
+  },
+  {
+    "amount": 4877.86,
+    "category": "Food",
+    "date": "2024-06-15",
+    "recurring": false,
+    "description": "Bakery"
+  },
+  {
+    "amount": 4239.26,
+    "category": "Food",
+    "date": "2024-06-19",
+    "recurring": false,
+    "description": "Delivery food"
+  },
+  {
+    "amount": 2347.33,
+    "category": "Education",
+    "date": "2024-06-22",
+    "recurring": false,
+    "description": "School supplies"
+  },
+  {
+    "amount": 2691.94,
+    "category": "Food",
+    "date": "2024-06-28",
+    "recurring": false,
+    "description": "Food truck"
+  },
+  {
+    "amount": 3293.36,
+    "category": "Food",
+    "date": "2024-06-07",
+    "recurring": false,
+    "description": "Fast food"
+  },
+  {
+    "amount": 4392.86,
+    "category": "Education",
+    "date": "2024-06-01",
+    "recurring": false,
+    "description": "Certification exam fees"
+  },
+  {
+    "amount": 628.85,
+    "category": "Transportation",
+    "date": "2024-06-25",
+    "recurring": false,
+    "description": "Car wash"
+  },
+  {
+    "amount": 3611.34,
+    "category": "Entertainment",
+    "date": "2024-06-25",
+    "recurring": false,
+    "description": "Video games"
+  },
+  {
+    "amount": 1124.41,
+    "category": "Entertainment",
+    "date": "2024-06-08",
+    "recurring": false,
+    "description": "Concert tickets"
+  },
+  {
+    "amount": 4004.5,
+    "category": "Entertainment",
+    "date": "2024-06-04",
+    "recurring": false,
+    "description": "Museum entry"
+  },
+  {
+    "amount": 3733.92,
+    "category": "Food",
+    "date": "2024-06-07",
+    "recurring": false,
+    "description": "Fast food"
+  },
+  {
+    "amount": 4367.03,
+    "category": "Education",
+    "date": "2024-06-04",
+    "recurring": false,
+    "description": "Online course"
+  },
+  {
+    "amount": 1022.27,
+    "category": "Transportation",
+    "date": "2024-06-09",
+    "recurring": false,
+    "description": "Bike repair"
+  },
+  {
+    "amount": 100.0,
+    "category": "Entertainment",
+    "date": "2024-06-17",
+    "recurring": false,
+    "description": "Concert tickets"
+  },
+  {
+    "amount": 4595.22,
+    "category": "Transportation",
+    "date": "2024-07-29",
+    "recurring": false,
+    "description": "Taxi ride"
+  },
+  {
+    "amount": 3085.02,
+    "category": "Housing",
+    "date": "2024-07-06",
+    "recurring": false,
+    "description": "Cleaning supplies"
+  },
+  {
+    "amount": 3981.7,
+    "category": "Housing",
+    "date": "2024-07-09",
+    "recurring": false,
+    "description": "Home security system"
+  },
+  {
+    "amount": 555.49,
+    "category": "Utilities",
+    "date": "2024-07-03",
+    "recurring": false,
+    "description": "Trash collection"
+  },
+  {
+    "amount": 4863.57,
+    "category": "Education",
+    "date": "2024-07-14",
+    "recurring": false,
+    "description": "School supplies"
+  },
+  {
+    "amount": 2835.88,
+    "category": "Food",
+    "date": "2024-07-17",
+    "recurring": false,
+    "description": "Cooking ingredients"
+  },
+  {
+    "amount": 1659.2,
+    "category": "Utilities",
+    "date": "2024-07-13",
+    "recurring": false,
+    "description": "Gas bill"
+  },
+  {
+    "amount": 2805.15,
+    "category": "Healthcare",
+    "date": "2024-07-06",
+    "recurring": false,
+    "description": "Urgent care visit"
+  },
+  {
+    "amount": 4446.85,
+    "category": "Transportation",
+    "date": "2024-07-02",
+    "recurring": false,
+    "description": "Public transport"
+  },
+  {
+    "amount": 4152.69,
+    "category": "Housing",
+    "date": "2024-07-10",
+    "recurring": false,
+    "description": "Pest control"
+  },
+  {
+    "amount": 2537.32,
+    "category": "Entertainment",
+    "date": "2024-07-31",
+    "recurring": false,
+    "description": "Magazine subscription"
+  },
+  {
+    "amount": 2315.34,
+    "category": "Healthcare",
+    "date": "2024-07-30",
+    "recurring": false,
+    "description": "Medication"
+  },
+  {
+    "amount": 1873.77,
+    "category": "Other",
+    "date": "2024-07-23",
+    "recurring": false,
+    "description": "Accessories"
+  },
+  {
+    "amount": 1785.48,
+    "category": "Entertainment",
+    "date": "2024-07-01",
+    "recurring": false,
+    "description": "Sports event"
+  },
+  {
+    "amount": 2836.32,
+    "category": "Education",
+    "date": "2024-07-03",
+    "recurring": false,
+    "description": "Language learning app"
+  },
+  {
+    "amount": 4346.22,
+    "category": "Food",
+    "date": "2024-07-22",
+    "recurring": false,
+    "description": "Specialty food items"
+  },
+  {
+    "amount": 3623.66,
+    "category": "Utilities",
+    "date": "2024-07-01",
+    "recurring": false,
+    "description": "Streaming services"
+  },
+  {
+    "amount": 2840.76,
+    "category": "Transportation",
+    "date": "2024-07-29",
+    "recurring": false,
+    "description": "Car wash"
+  },
+  {
+    "amount": 511.08,
+    "category": "Transportation",
+    "date": "2024-07-04",
+    "recurring": false,
+    "description": "Car maintenance"
+  },
+  {
+    "amount": 3303.27,
+    "category": "Housing",
+    "date": "2024-07-07",
+    "recurring": false,
+    "description": "Home insurance"
+  },
+  {
+    "amount": 4653.55,
+    "category": "Healthcare",
+    "date": "2024-07-04",
+    "recurring": false,
+    "description": "Vitamins and supplements"
+  },
+  {
+    "amount": 853.23,
+    "category": "Transportation",
+    "date": "2024-07-24",
+    "recurring": false,
+    "description": "Vehicle registration"
+  },
+  {
+    "amount": 663.05,
+    "category": "Other",
+    "date": "2024-07-08",
+    "recurring": false,
+    "description": "Tax preparation"
+  },
+  {
+    "amount": 2924.6,
+    "category": "Other",
+    "date": "2024-07-11",
+    "recurring": false,
+    "description": "Postage"
+  },
+  {
+    "amount": 1974.72,
+    "category": "Housing",
+    "date": "2024-07-08",
+    "recurring": false,
+    "description": "Rent"
+  },
+  {
+    "amount": 2780.16,
+    "category": "Other",
+    "date": "2024-07-09",
+    "recurring": false,
+    "description": "Accessories"
+  },
+  {
+    "amount": 4388.24,
+    "category": "Housing",
+    "date": "2024-07-10",
+    "recurring": false,
+    "description": "Pest control"
+  },
+  {
+    "amount": 4032.53,
+    "category": "Food",
+    "date": "2024-07-24",
+    "recurring": false,
+    "description": "Delivery food"
+  },
+  {
+    "amount": 3524.56,
+    "category": "Food",
+    "date": "2024-07-09",
+    "recurring": false,
+    "description": "Farmers market"
+  },
+  {
+    "amount": 2286.42,
+    "category": "Transportation",
+    "date": "2024-07-03",
+    "recurring": false,
+    "description": "Toll fees"
+  },
+  {
+    "amount": 873.74,
+    "category": "Other",
+    "date": "2024-07-06",
+    "recurring": false,
+    "description": "Legal services"
+  },
+  {
+    "amount": 671.11,
+    "category": "Education",
+    "date": "2024-07-07",
+    "recurring": false,
+    "description": "Textbooks"
+  },
+  {
+    "amount": 3957.14,
+    "category": "Food",
+    "date": "2024-07-05",
+    "recurring": false,
+    "description": "Cooking ingredients"
+  },
+  {
+    "amount": 146.93,
+    "category": "Healthcare",
+    "date": "2024-07-25",
+    "recurring": false,
+    "description": "Urgent care visit"
+  },
+  {
+    "amount": 2532.32,
+    "category": "Utilities",
+    "date": "2024-07-12",
+    "recurring": false,
+    "description": "Sewer service"
+  },
+  {
+    "amount": 203.28,
+    "category": "Healthcare",
+    "date": "2024-07-03",
+    "recurring": false,
+    "description": "Specialist consultation"
+  },
+  {
+    "amount": 3940.62,
+    "category": "Housing",
+    "date": "2024-07-28",
+    "recurring": false,
+    "description": "Cleaning supplies"
+  },
+  {
+    "amount": 2701.94,
+    "category": "Healthcare",
+    "date": "2024-07-28",
+    "recurring": false,
+    "description": "Urgent care visit"
+  },
+  {
+    "amount": 2728.93,
+    "category": "Food",
+    "date": "2024-07-19",
+    "recurring": false,
+    "description": "Coffee shop"
+  },
+  {
+    "amount": 4352.22,
+    "category": "Transportation",
+    "date": "2024-07-29",
+    "recurring": false,
+    "description": "Car wash"
+  },
+  {
+    "amount": 3682.84,
+    "category": "Healthcare",
+    "date": "2024-07-04",
+    "recurring": false,
+    "description": "Medication"
+  },
+  {
+    "amount": 440.22,
+    "category": "Entertainment",
+    "date": "2024-07-02",
+    "recurring": false,
+    "description": "Movie tickets"
+  },
+  {
+    "amount": 2803.98,
+    "category": "Housing",
+    "date": "2024-07-18",
+    "recurring": false,
+    "description": "Cleaning supplies"
+  },
+  {
+    "amount": 1613.85,
+    "category": "Utilities",
+    "date": "2024-07-23",
+    "recurring": false,
+    "description": "Internet bill"
+  },
+  {
+    "amount": 910.28,
+    "category": "Entertainment",
+    "date": "2024-07-31",
+    "recurring": false,
+    "description": "Movie tickets"
+  },
+  {
+    "amount": 2057.79,
+    "category": "Other",
+    "date": "2024-07-03",
+    "recurring": false,
+    "description": "Legal services"
+  },
+  {
+    "amount": 1836.73,
+    "category": "Education",
+    "date": "2024-07-23",
+    "recurring": false,
+    "description": "Tutoring"
+  },
+  {
+    "amount": 1695.96,
+    "category": "Food",
+    "date": "2024-07-20",
+    "recurring": false,
+    "description": "Specialty food items"
+  },
+  {
+    "amount": 4549.11,
+    "category": "Other",
+    "date": "2024-07-25",
+    "recurring": false,
+    "description": "Tax preparation"
+  },
+  {
+    "amount": 3710.15,
+    "category": "Housing",
+    "date": "2024-07-28",
+    "recurring": false,
+    "description": "Home security system"
+  },
+  {
+    "amount": 3914.44,
+    "category": "Education",
+    "date": "2024-07-27",
+    "recurring": false,
+    "description": "Educational software"
+  },
+  {
+    "amount": 688.47,
+    "category": "Other",
+    "date": "2024-07-15",
+    "recurring": false,
+    "description": "Subscription box"
+  },
+  {
+    "amount": 4610.4,
+    "category": "Utilities",
+    "date": "2024-07-06",
+    "recurring": false,
+    "description": "Electricity bill"
+  },
+  {
+    "amount": 1549.57,
+    "category": "Entertainment",
+    "date": "2024-07-14",
+    "recurring": false,
+    "description": "Video games"
+  },
+  {
+    "amount": 250.45,
+    "category": "Transportation",
+    "date": "2024-07-10",
+    "recurring": false,
+    "description": "Toll fees"
+  },
+  {
+    "amount": 4876.8,
+    "category": "Education",
+    "date": "2024-08-13",
+    "recurring": false,
+    "description": "Professional development seminar"
+  },
+  {
+    "amount": 2081.04,
+    "category": "Healthcare",
+    "date": "2024-08-28",
+    "recurring": false,
+    "description": "Doctor visit"
+  },
+  {
+    "amount": 4981.85,
+    "category": "Food",
+    "date": "2024-08-19",
+    "recurring": false,
+    "description": "Restaurant meal"
+  },
+  {
+    "amount": 1764.4,
+    "category": "Education",
+    "date": "2024-08-08",
+    "recurring": false,
+    "description": "Language learning app"
+  },
+  {
+    "amount": 3545.54,
+    "category": "Housing",
+    "date": "2024-08-13",
+    "recurring": false,
+    "description": "Cleaning supplies"
+  },
+  {
+    "amount": 4887.04,
+    "category": "Transportation",
+    "date": "2024-08-02",
+    "recurring": false,
+    "description": "Parking fees"
+  },
+  {
+    "amount": 536.31,
+    "category": "Transportation",
+    "date": "2024-08-09",
+    "recurring": false,
+    "description": "Toll fees"
+  },
+  {
+    "amount": 2399.01,
+    "category": "Other",
+    "date": "2024-08-28",
+    "recurring": false,
+    "description": "Gifts"
+  },
+  {
+    "amount": 467.48,
+    "category": "Food",
+    "date": "2024-08-05",
+    "recurring": false,
+    "description": "Restaurant meal"
+  },
+  {
+    "amount": 4489.87,
+    "category": "Education",
+    "date": "2024-08-15",
+    "recurring": false,
+    "description": "Certification exam fees"
+  },
+  {
+    "amount": 2153.16,
+    "category": "Healthcare",
+    "date": "2024-08-20",
+    "recurring": false,
+    "description": "Doctor visit"
+  },
+  {
+    "amount": 4175.13,
+    "category": "Food",
+    "date": "2024-08-12",
+    "recurring": false,
+    "description": "Cooking ingredients"
+  },
+  {
+    "amount": 1322.25,
+    "category": "Food",
+    "date": "2024-08-13",
+    "recurring": false,
+    "description": "Food truck"
+  },
+  {
+    "amount": 626.45,
+    "category": "Transportation",
+    "date": "2024-08-27",
+    "recurring": false,
+    "description": "Ride-sharing service"
+  },
+  {
+    "amount": 3154.89,
+    "category": "Housing",
+    "date": "2024-08-17",
+    "recurring": false,
+    "description": "Cleaning supplies"
+  },
+  {
+    "amount": 1118.21,
+    "category": "Housing",
+    "date": "2024-08-14",
+    "recurring": false,
+    "description": "Cleaning supplies"
+  },
+  {
+    "amount": 4654.03,
+    "category": "Entertainment",
+    "date": "2024-08-10",
+    "recurring": false,
+    "description": "Sports event"
+  },
+  {
+    "amount": 3793.05,
+    "category": "Housing",
+    "date": "2024-08-31",
+    "recurring": false,
+    "description": "Home insurance"
+  },
+  {
+    "amount": 3704.0,
+    "category": "Transportation",
+    "date": "2024-08-12",
+    "recurring": false,
+    "description": "Vehicle registration"
+  },
+  {
+    "amount": 2827.07,
+    "category": "Utilities",
+    "date": "2024-08-31",
+    "recurring": false,
+    "description": "Cable TV"
+  },
+  {
+    "amount": 1693.33,
+    "category": "Housing",
+    "date": "2024-08-29",
+    "recurring": false,
+    "description": "Mortgage payment"
+  },
+  {
+    "amount": 329.65,
+    "category": "Healthcare",
+    "date": "2024-08-30",
+    "recurring": false,
+    "description": "Health insurance premium"
+  },
+  {
+    "amount": 2747.57,
+    "category": "Other",
+    "date": "2024-08-22",
+    "recurring": false,
+    "description": "Haircut"
+  },
+  {
+    "amount": 393.86,
+    "category": "Entertainment",
+    "date": "2024-08-20",
+    "recurring": false,
+    "description": "Amusement park"
+  },
+  {
+    "amount": 2663.75,
+    "category": "Utilities",
+    "date": "2024-08-17",
+    "recurring": false,
+    "description": "Water bill"
+  },
+  {
+    "amount": 1181.85,
+    "category": "Entertainment",
+    "date": "2024-08-29",
+    "recurring": false,
+    "description": "Sports event"
+  },
+  {
+    "amount": 983.8,
+    "category": "Utilities",
+    "date": "2024-08-25",
+    "recurring": false,
+    "description": "Trash collection"
+  },
+  {
+    "amount": 186.53,
+    "category": "Utilities",
+    "date": "2024-08-28",
+    "recurring": false,
+    "description": "Gas bill"
+  },
+  {
+    "amount": 3124.93,
+    "category": "Education",
+    "date": "2024-08-23",
+    "recurring": false,
+    "description": "School supplies"
+  },
+  {
+    "amount": 1514.42,
+    "category": "Education",
+    "date": "2024-08-16",
+    "recurring": false,
+    "description": "Professional development seminar"
+  },
+  {
+    "amount": 827.44,
+    "category": "Transportation",
+    "date": "2024-08-07",
+    "recurring": false,
+    "description": "Vehicle registration"
+  },
+  {
+    "amount": 379.17,
+    "category": "Housing",
+    "date": "2024-08-12",
+    "recurring": false,
+    "description": "Property taxes"
+  },
+  {
+    "amount": 4546.36,
+    "category": "Utilities",
+    "date": "2024-08-08",
+    "recurring": false,
+    "description": "Electricity bill"
+  },
+  {
+    "amount": 4487.65,
+    "category": "Food",
+    "date": "2024-08-01",
+    "recurring": false,
+    "description": "Bakery"
+  },
+  {
+    "amount": 2631.0,
+    "category": "Other",
+    "date": "2024-08-15",
+    "recurring": false,
+    "description": "Accessories"
+  },
+  {
+    "amount": 4859.09,
+    "category": "Healthcare",
+    "date": "2024-08-24",
+    "recurring": false,
+    "description": "Specialist consultation"
+  },
+  {
+    "amount": 4535.97,
+    "category": "Entertainment",
+    "date": "2024-08-31",
+    "recurring": false,
+    "description": "Vacation expenses"
+  },
+  {
+    "amount": 3139.73,
+    "category": "Other",
+    "date": "2024-08-01",
+    "recurring": false,
+    "description": "Accessories"
+  },
+  {
+    "amount": 3277.41,
+    "category": "Entertainment",
+    "date": "2024-08-17",
+    "recurring": false,
+    "description": "Gym membership"
+  },
+  {
+    "amount": 4890.41,
+    "category": "Education",
+    "date": "2024-08-30",
+    "recurring": false,
+    "description": "Professional development seminar"
+  },
+  {
+    "amount": 4414.18,
+    "category": "Food",
+    "date": "2024-08-05",
+    "recurring": false,
+    "description": "Groceries"
+  },
+  {
+    "amount": 103.03,
+    "category": "Entertainment",
+    "date": "2024-08-21",
+    "recurring": false,
+    "description": "Museum entry"
+  },
+  {
+    "amount": 4792.03,
+    "category": "Utilities",
+    "date": "2024-08-29",
+    "recurring": false,
+    "description": "Sewer service"
+  },
+  {
+    "amount": 3178.99,
+    "category": "Entertainment",
+    "date": "2024-08-05",
+    "recurring": false,
+    "description": "Amusement park"
+  },
+  {
+    "amount": 426.85,
+    "category": "Transportation",
+    "date": "2024-08-21",
+    "recurring": false,
+    "description": "Bike repair"
+  },
+  {
+    "amount": 4377.87,
+    "category": "Other",
+    "date": "2024-08-15",
+    "recurring": false,
+    "description": "Postage"
+  },
+  {
+    "amount": 568.19,
+    "category": "Transportation",
+    "date": "2024-08-14",
+    "recurring": false,
+    "description": "Fuel"
+  },
+  {
+    "amount": 1546.95,
+    "category": "Education",
+    "date": "2024-08-29",
+    "recurring": false,
+    "description": "Online course"
+  },
+  {
+    "amount": 1046.42,
+    "category": "Education",
+    "date": "2024-08-09",
+    "recurring": false,
+    "description": "Online course"
+  },
+  {
+    "amount": 2550.18,
+    "category": "Other",
+    "date": "2024-08-21",
+    "recurring": false,
+    "description": "Haircut"
+  },
+  {
+    "amount": 4954.76,
+    "category": "Food",
+    "date": "2024-08-10",
+    "recurring": false,
+    "description": "Food truck"
+  },
+  {
+    "amount": 474.13,
+    "category": "Other",
+    "date": "2024-08-19",
+    "recurring": false,
+    "description": "Postage"
+  },
+  {
+    "amount": 3658.43,
+    "category": "Transportation",
+    "date": "2024-08-21",
+    "recurring": false,
+    "description": "Car rental"
+  },
+  {
+    "amount": 953.68,
+    "category": "Healthcare",
+    "date": "2024-08-22",
+    "recurring": false,
+    "description": "Medical equipment"
+  },
+  {
+    "amount": 4136.88,
+    "category": "Housing",
+    "date": "2024-08-29",
+    "recurring": false,
+    "description": "Pest control"
+  },
+  {
+    "amount": 1198.1,
+    "category": "Entertainment",
+    "date": "2024-08-14",
+    "recurring": false,
+    "description": "Theater show"
+  },
+  {
+    "amount": 4066.33,
+    "category": "Housing",
+    "date": "2024-08-12",
+    "recurring": false,
+    "description": "Furniture"
+  },
+  {
+    "amount": 258.58,
+    "category": "Food",
+    "date": "2024-08-11",
+    "recurring": false,
+    "description": "Cooking ingredients"
+  },
+  {
+    "amount": 3741.78,
+    "category": "Other",
+    "date": "2024-08-06",
+    "recurring": false,
+    "description": "Tax preparation"
+  },
+  {
+    "amount": 2164.44,
+    "category": "Housing",
+    "date": "2024-08-15",
+    "recurring": false,
+    "description": "Home decor"
+  },
+  {
+    "amount": 739.06,
+    "category": "Healthcare",
+    "date": "2024-09-22",
+    "recurring": false,
+    "description": "Urgent care visit"
+  },
+  {
+    "amount": 950.48,
+    "category": "Other",
+    "date": "2024-09-21",
+    "recurring": false,
+    "description": "Haircut"
+  },
+  {
+    "amount": 2630.23,
+    "category": "Housing",
+    "date": "2024-09-01",
+    "recurring": false,
+    "description": "Pest control"
+  },
+  {
+    "amount": 3783.82,
+    "category": "Transportation",
+    "date": "2024-09-29",
+    "recurring": false,
+    "description": "Bike repair"
+  },
+  {
+    "amount": 464.47,
+    "category": "Housing",
+    "date": "2024-09-10",
+    "recurring": false,
+    "description": "Furniture"
+  },
+  {
+    "amount": 1284.74,
+    "category": "Housing",
+    "date": "2024-09-21",
+    "recurring": false,
+    "description": "Cleaning supplies"
+  },
+  {
+    "amount": 4685.82,
+    "category": "Food",
+    "date": "2024-09-13",
+    "recurring": false,
+    "description": "Ice cream"
+  },
+  {
+    "amount": 1807.38,
+    "category": "Healthcare",
+    "date": "2024-09-06",
+    "recurring": false,
+    "description": "Therapy session"
+  },
+  {
+    "amount": 1318.37,
+    "category": "Education",
+    "date": "2024-09-30",
+    "recurring": false,
+    "description": "Certification exam fees"
+  },
+  {
+    "amount": 4318.56,
+    "category": "Utilities",
+    "date": "2024-09-18",
+    "recurring": false,
+    "description": "Streaming services"
+  },
+  {
+    "amount": 124.62,
+    "category": "Food",
+    "date": "2024-09-22",
+    "recurring": false,
+    "description": "Specialty food items"
+  },
+  {
+    "amount": 756.41,
+    "category": "Entertainment",
+    "date": "2024-09-06",
+    "recurring": false,
+    "description": "Video games"
+  },
+  {
+    "amount": 2662.22,
+    "category": "Food",
+    "date": "2024-09-13",
+    "recurring": false,
+    "description": "Ice cream"
+  },
+  {
+    "amount": 3449.39,
+    "category": "Housing",
+    "date": "2024-09-02",
+    "recurring": false,
+    "description": "Furniture"
+  },
+  {
+    "amount": 3469.44,
+    "category": "Healthcare",
+    "date": "2024-09-04",
+    "recurring": false,
+    "description": "Eye exam"
+  },
+  {
+    "amount": 644.72,
+    "category": "Housing",
+    "date": "2024-09-22",
+    "recurring": false,
+    "description": "Mortgage payment"
+  },
+  {
+    "amount": 4038.23,
+    "category": "Utilities",
+    "date": "2024-09-05",
+    "recurring": false,
+    "description": "Gas bill"
+  },
+  {
+    "amount": 4217.17,
+    "category": "Housing",
+    "date": "2024-09-09",
+    "recurring": false,
+    "description": "Cleaning supplies"
+  },
+  {
+    "amount": 4396.92,
+    "category": "Education",
+    "date": "2024-09-12",
+    "recurring": false,
+    "description": "Tutoring"
+  },
+  {
+    "amount": 996.66,
+    "category": "Entertainment",
+    "date": "2024-09-12",
+    "description": "Theater show",
+    "recurring": false
+  },
+  {
+    "amount": 4993.57,
+    "category": "Housing",
+    "date": "2024-09-09",
+    "description": "Rent",
+    "recurring": false
+  },
+  {
+    "amount": 1445.11,
+    "category": "Housing",
+    "date": "2024-09-14",
+    "description": "Home decor",
+    "recurring": false
+  },
+  {
+    "amount": 2519.81,
+    "category": "Transportation",
+    "date": "2024-09-12",
+    "description": "Tire replacement",
+    "recurring": false
+  },
+  {
+    "amount": 1535.68,
+    "category": "Transportation",
+    "date": "2024-09-20",
+    "description": "Parking fees",
+    "recurring": false
+  },
+  {
+    "amount": 1701.2,
+    "category": "Housing",
+    "date": "2024-09-20",
+    "description": "Home security system",
+    "recurring": false
+  },
+  {
+    "amount": 2324.74,
+    "category": "Utilities",
+    "date": "2024-09-30",
+    "description": "Phone bill",
+    "recurring": false
+  },
+  {
+    "amount": 3824.07,
+    "category": "Education",
+    "date": "2024-09-30",
+    "description": "Textbooks",
+    "recurring": false
+  },
+  {
+    "amount": 1703.15,
+    "category": "Food",
+    "date": "2024-09-11",
+    "description": "Coffee shop",
+    "recurring": false
+  },
+  {
+    "amount": 4964.08,
+    "category": "Food",
+    "date": "2024-09-24",
+    "description": "Groceries",
+    "recurring": false
+  },
+  {
+    "amount": 2796.7,
+    "category": "Other",
+    "date": "2024-09-01",
+    "description": "Haircut",
+    "recurring": false
+  },
+  {
+    "amount": 3264.37,
+    "category": "Other",
+    "date": "2024-09-22",
+    "description": "Legal services",
+    "recurring": false
+  },
+  {
+    "amount": 2535.87,
+    "category": "Housing",
+    "date": "2024-09-06",
+    "description": "Furniture",
+    "recurring": false
+  },
+  {
+    "amount": 2914.23,
+    "category": "Transportation",
+    "date": "2024-09-29",
+    "description": "Car rental",
+    "recurring": false
+  },
+  {
+    "amount": 3229.96,
+    "category": "Entertainment",
+    "date": "2024-09-12",
+    "description": "Books",
+    "recurring": false
+  },
+  {
+    "amount": 4066.18,
+    "category": "Transportation",
+    "date": "2024-09-20",
+    "description": "Car wash",
+    "recurring": false
+  },
+  {
+    "amount": 4665.94,
+    "category": "Housing",
+    "date": "2024-09-01",
+    "description": "Home insurance",
+    "recurring": false
+  },
+  {
+    "amount": 938.05,
+    "category": "Entertainment",
+    "date": "2024-09-04",
+    "description": "Amusement park",
+    "recurring": false
+  },
+  {
+    "amount": 2625.11,
+    "category": "Utilities",
+    "date": "2024-09-12",
+    "description": "Sewer service",
+    "recurring": false
+  },
+  {
+    "amount": 2660.87,
+    "category": "Entertainment",
+    "date": "2024-09-16",
+    "description": "Video games",
+    "recurring": false
+  },
+  {
+    "amount": 1349.75,
+    "category": "Transportation",
+    "date": "2024-09-10",
+    "description": "Public transport",
+    "recurring": false
+  },
+  {
+    "amount": 1653.32,
+    "category": "Entertainment",
+    "date": "2024-09-01",
+    "description": "Vacation expenses",
+    "recurring": false
+  },
+  {
+    "amount": 4078.32,
+    "category": "Entertainment",
+    "date": "2024-09-09",
+    "description": "Sports event",
+    "recurring": false
+  },
+  {
+    "amount": 4223.54,
+    "category": "Entertainment",
+    "date": "2024-09-07",
+    "description": "Sports event",
+    "recurring": false
+  },
+  {
+    "amount": 4671.64,
+    "category": "Other",
+    "date": "2024-09-19",
+    "description": "Tax preparation",
+    "recurring": false
+  },
+  {
+    "amount": 2017.81,
+    "category": "Other",
+    "date": "2024-09-19",
+    "description": "Postage",
+    "recurring": false
+  },
+  {
+    "amount": 4319.04,
+    "category": "Utilities",
+    "date": "2024-09-09",
+    "description": "Internet bill",
+    "recurring": false
+  },
+  {
+    "amount": 4890.91,
+    "category": "Healthcare",
+    "date": "2024-09-17",
+    "description": "Dental checkup",
+    "recurring": false
+  },
+  {
+    "amount": 2794.07,
+    "category": "Utilities",
+    "date": "2024-09-06",
+    "description": "Water bill",
+    "recurring": false
+  },
+  {
+    "amount": 767.12,
+    "category": "Housing",
+    "date": "2024-09-25",
+    "description": "Cleaning supplies",
+    "recurring": false
+  },
+  {
+    "amount": 823.58,
+    "category": "Entertainment",
+    "date": "2024-09-09",
+    "description": "Theater show",
+    "recurring": false
+  },
+  {
+    "amount": 2559.93,
+    "category": "Education",
+    "date": "2024-09-25",
+    "description": "School supplies",
+    "recurring": false
+  },
+  {
+    "amount": 844.6,
+    "category": "Healthcare",
+    "date": "2024-09-12",
+    "description": "Urgent care visit",
+    "recurring": false
+  },
+  {
+    "amount": 894.85,
+    "category": "Other",
+    "date": "2024-09-10",
+    "description": "Office supplies",
+    "recurring": false
+  },
+  {
+    "amount": 331.57,
+    "category": "Healthcare",
+    "date": "2024-09-05",
+    "description": "Specialist consultation",
+    "recurring": false
+  },
+  {
+    "amount": 700.99,
+    "category": "Housing",
+    "date": "2024-10-14",
+    "description": "Property taxes",
+    "recurring": false
+  },
+  {
+    "amount": 1171.12,
+    "category": "Other",
+    "date": "2024-10-28",
+    "description": "Tax preparation",
+    "recurring": false
+  },
+  {
+    "amount": 2168.24,
+    "category": "Utilities",
+    "date": "2024-10-10",
+    "description": "Streaming services",
+    "recurring": false
+  },
+  {
+    "amount": 1150.97,
+    "category": "Education",
+    "date": "2024-10-12",
+    "description": "Educational software",
+    "recurring": false
+  },
+  {
+    "amount": 1107.35,
+    "category": "Other",
+    "date": "2024-10-23",
+    "description": "Haircut",
+    "recurring": false
+  },
+  {
+    "amount": 1589.95,
+    "category": "Other",
+    "date": "2024-10-29",
+    "description": "Office supplies",
+    "recurring": false
+  },
+  {
+    "amount": 2192.19,
+    "category": "Utilities",
+    "date": "2024-10-10",
+    "description": "Electricity bill",
+    "recurring": false
+  },
+  {
+    "amount": 1016.59,
+    "category": "Healthcare",
+    "date": "2024-10-01",
+    "description": "Vitamins and supplements",
+    "recurring": false
+  },
+  {
+    "amount": 1757.58,
+    "category": "Utilities",
+    "date": "2024-10-04",
+    "description": "Trash collection",
+    "recurring": false
+  },
+  {
+    "amount": 3199.95,
+    "category": "Food",
+    "date": "2024-10-15",
+    "description": "Snacks",
+    "recurring": false
+  },
+  {
+    "amount": 4671.8,
+    "category": "Food",
+    "date": "2024-10-26",
+    "description": "Restaurant meal",
+    "recurring": false
+  },
+  {
+    "amount": 4614.32,
+    "category": "Entertainment",
+    "date": "2024-10-15",
+    "description": "Gym membership",
+    "recurring": false
+  },
+  {
+    "amount": 1324.07,
+    "category": "Food",
+    "date": "2024-10-26",
+    "description": "Bakery",
+    "recurring": false
+  },
+  {
+    "amount": 2335.42,
+    "category": "Housing",
+    "date": "2024-10-13",
+    "description": "Home security system",
+    "recurring": false
+  },
+  {
+    "amount": 1782.5,
+    "category": "Entertainment",
+    "date": "2024-10-21",
+    "description": "Amusement park",
+    "recurring": false
+  },
+  {
+    "amount": 2495.25,
+    "category": "Food",
+    "date": "2024-10-07",
+    "description": "Bakery",
+    "recurring": false
+  },
+  {
+    "amount": 4749.49,
+    "category": "Food",
+    "date": "2024-10-21",
+    "description": "Cooking ingredients",
+    "recurring": false
+  },
+  {
+    "amount": 2892.82,
+    "category": "Other",
+    "date": "2024-10-15",
+    "description": "Clothing",
+    "recurring": false
+  },
+  {
+    "amount": 1526.15,
+    "category": "Entertainment",
+    "date": "2024-10-30",
+    "description": "Sports event",
+    "recurring": false
+  },
+  {
+    "amount": 1620.02,
+    "category": "Transportation",
+    "date": "2024-10-16",
+    "description": "Tire replacement",
+    "recurring": false
+  },
+  {
+    "amount": 2961.33,
+    "category": "Education",
+    "date": "2024-10-03",
+    "description": "Tutoring",
+    "recurring": false
+  },
+  {
+    "amount": 4823.41,
+    "category": "Education",
+    "date": "2024-10-11",
+    "description": "School supplies",
+    "recurring": false
+  },
+  {
+    "amount": 3452.83,
+    "category": "Housing",
+    "date": "2024-10-20",
+    "description": "Home security system",
+    "recurring": false
+  },
+  {
+    "amount": 2161.85,
+    "category": "Utilities",
+    "date": "2024-10-02",
+    "description": "Water bill",
+    "recurring": false
+  },
+  {
+    "amount": 817.1,
+    "category": "Healthcare",
+    "date": "2024-10-13",
+    "description": "Specialist consultation",
+    "recurring": false
+  },
+  {
+    "amount": 2214.47,
+    "category": "Other",
+    "date": "2024-10-16",
+    "description": "Postage",
+    "recurring": false
+  },
+  {
+    "amount": 1685.1,
+    "category": "Food",
+    "date": "2024-10-02",
+    "description": "Food truck",
+    "recurring": false
+  },
+  {
+    "amount": 2272.48,
+    "category": "Entertainment",
+    "date": "2024-10-16",
+    "description": "Sports event",
+    "recurring": false
+  },
+  {
+    "amount": 2252.94,
+    "category": "Housing",
+    "date": "2024-10-02",
+    "description": "Home security system",
+    "recurring": false
+  },
+  {
+    "amount": 2777.35,
+    "category": "Food",
+    "date": "2024-10-07",
+    "description": "Food truck",
+    "recurring": false
+  },
+  {
+    "amount": 1686.53,
+    "category": "Other",
+    "date": "2024-10-09",
+    "description": "Gifts",
+    "recurring": false
+  },
+  {
+    "amount": 624.07,
+    "category": "Housing",
+    "date": "2024-10-15",
+    "description": "Home repairs",
+    "recurring": false
+  },
+  {
+    "amount": 1847.59,
+    "category": "Entertainment",
+    "date": "2024-10-17",
+    "description": "Amusement park",
+    "recurring": false
+  },
+  {
+    "amount": 579.68,
+    "category": "Healthcare",
+    "date": "2024-10-19",
+    "description": "Medical equipment",
+    "recurring": false
+  },
+  {
+    "amount": 1585.09,
+    "category": "Food",
+    "date": "2024-10-24",
+    "description": "Coffee shop",
+    "recurring": false
+  },
+  {
+    "amount": 3085.61,
+    "category": "Transportation",
+    "date": "2024-10-01",
+    "description": "Car maintenance",
+    "recurring": false
+  },
+  {
+    "amount": 3071.12,
+    "category": "Transportation",
+    "date": "2024-10-10",
+    "description": "Car wash",
+    "recurring": false
+  },
+  {
+    "amount": 3666.01,
+    "category": "Education",
+    "date": "2024-10-01",
+    "description": "Tuition",
+    "recurring": false
+  },
+  {
+    "amount": 303.95,
+    "category": "Food",
+    "date": "2024-10-01",
+    "description": "Groceries",
+    "recurring": false
+  },
+  {
+    "amount": 409.43,
+    "category": "Food",
+    "date": "2024-10-07",
+    "description": "Delivery food",
+    "recurring": false
+  },
+  {
+    "amount": 3082.07,
+    "category": "Healthcare",
+    "date": "2024-10-18",
+    "description": "Dental checkup",
+    "recurring": false
+  },
+  {
+    "amount": 2727.3,
+    "category": "Entertainment",
+    "date": "2024-10-05",
+    "description": "Vacation expenses",
+    "recurring": false
+  },
+  {
+    "amount": 1360.82,
+    "category": "Food",
+    "date": "2024-10-18",
+    "description": "Coffee shop",
+    "recurring": false
+  },
+  {
+    "amount": 309.06,
+    "category": "Entertainment",
+    "date": "2024-10-27",
+    "description": "Movie tickets",
+    "recurring": false
+  },
+  {
+    "date": "2024-10-22",
+    "amount": 4929.29,
+    "category": "Healthcare",
+    "description": "Therapy session",
+    "recurring": false
+  },
+  {
+    "amount": 549.26,
+    "category": "Other",
+    "date": "2024-10-26",
+    "description": "Accessories",
+    "recurring": false
+  },
+  {
+    "amount": 231.16,
+    "category": "Food",
+    "date": "2024-10-27",
+    "description": "Farmers market",
+    "recurring": false
+  },
+  {
+    "amount": 4052.18,
+    "category": "Healthcare",
+    "date": "2024-10-06",
+    "description": "Urgent care visit",
+    "recurring": false
+  },
+  {
+    "amount": 3619.28,
+    "category": "Transportation",
+    "date": "2024-10-12",
+    "description": "Bike repair",
+    "recurring": false
+  },
+  {
+    "amount": 1218.04,
+    "category": "Entertainment",
+    "date": "2024-10-25",
+    "description": "Sports event",
+    "recurring": false
+  },
+  {
+    "amount": 936.09,
+    "category": "Healthcare",
+    "date": "2024-10-04",
+    "description": "Medication",
+    "recurring": false
+  },
+  {
+    "amount": 1245.16,
+    "category": "Other",
+    "date": "2024-10-03",
+    "description": "Pet supplies",
+    "recurring": false
+  },
+  {
+    "amount": 2228.48,
+    "category": "Utilities",
+    "date": "2024-10-24",
+    "description": "Internet bill",
+    "recurring": false
+  },
+  {
+    "amount": 2298.68,
+    "category": "Utilities",
+    "date": "2024-10-23",
+    "description": "Gas bill",
+    "recurring": false
+  },
+  {
+    "amount": 3841.15,
+    "category": "Transportation",
+    "date": "2024-10-15",
+    "description": "Car wash",
+    "recurring": false
+  },
+  {
+    "amount": 2048.44,
+    "category": "Utilities",
+    "date": "2024-10-03",
+    "description": "Cable TV",
+    "recurring": false
+  },
+  {
+    "amount": 4362.96,
+    "category": "Transportation",
+    "date": "2024-10-31",
+    "description": "Toll fees",
+    "recurring": false
+  },
+  {
+    "amount": 4175.5,
+    "category": "Food",
+    "date": "2024-10-21",
+    "description": "Ice cream",
+    "recurring": false
+  },
+  {
+    "amount": 4145.71,
+    "category": "Entertainment",
+    "date": "2024-10-10",
+    "description": "Museum entry",
+    "recurring": false
+  },
+  {
+    "amount": 557.71,
+    "category": "Other",
+    "date": "2024-10-31",
+    "description": "Legal services",
+    "recurring": false
+  },
+  {
+    "amount": 174.17,
+    "category": "Entertainment",
+    "date": "2024-10-28",
+    "description": "Magazine subscription",
+    "recurring": false
+  },
+  {
+    "amount": 751.94,
+    "category": "Transportation",
+    "date": "2024-10-05",
+    "description": "Car wash",
+    "recurring": false
+  },
+  {
+    "amount": 4486.24,
+    "category": "Other",
+    "date": "2024-10-26",
+    "description": "Office supplies",
+    "recurring": false
+  },
+  {
+    "amount": 3792.9,
+    "category": "Food",
+    "date": "2024-10-22",
+    "description": "Delivery food",
+    "recurring": false
+  },
+  {
+    "amount": 2238.42,
+    "category": "Transportation",
+    "date": "2024-10-18",
+    "description": "Car rental",
+    "recurring": false
+  },
+  {
+    "amount": 3948.1,
+    "category": "Entertainment",
+    "date": "2024-10-26",
+    "description": "Hobby supplies",
+    "recurring": false
+  },
+  {
+    "amount": 2066.57,
+    "category": "Transportation",
+    "date": "2024-10-20",
+    "description": "Vehicle registration",
+    "recurring": false
+  },
+  {
+    "amount": 3513.16,
+    "category": "Other",
+    "date": "2024-10-25",
+    "description": "Charity donation",
+    "recurring": false
+  },
+  {
+    "amount": 881.51,
+    "category": "Housing",
+    "date": "2024-10-27",
+    "description": "Furniture",
+    "recurring": false
+  },
+  {
+    "amount": 100.0,
+    "category": "Education",
+    "date": "2024-10-18",
+    "description": "Professional development seminar",
+    "recurring": false
+  },
+  {
+    "amount": 1354.79,
+    "category": "Transportation",
+    "date": "2024-10-21",
+    "description": "how are you",
+    "recurring": false
+  },
+  {
+    "amount": 47656.0,
+    "category": "Transportation",
+    "date": "2024-10-11",
+    "description": "hello",
+    "recurring": false
+  }
+]
