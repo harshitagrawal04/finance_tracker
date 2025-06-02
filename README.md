@@ -1,3 +1,4 @@
+```markdown
 # 💸 Personal Finance Tracker
 
 **A desktop application to manage income, expenses, and visualize financial trends with ease.**
@@ -26,3 +27,45 @@
 
 ## 🗃 File Structure
 
+```
+finance_tracker.py
+finance_data/
+├── expenses.json
+└── income.json
+```
+
+## 🚀 Getting Started
+
+### Requirements
+
+- Python 3.8+
+- Libraries:
+  - `tkinter`
+  - `tkcalendar`
+  - `pandas`
+  - `matplotlib`
+  - `numpy`
+
+Install missing packages using:
+
+```bash
+pip install tkcalendar pandas matplotlib numpy
+```
+
+### Run the App
+
+```bash
+python finance_tracker.py
+```
+
+## 📌 Usage Notes
+
+- Designed for **single-user local use**.
+- All data is saved in the `finance_data` folder automatically.
+- Use the calendar widget to filter transactions by date.
+- Interactive plots help visualize trends in your finances.
+
+---
+
+Happy tracking! 🧾💰
+```
