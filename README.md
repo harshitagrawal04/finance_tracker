@@ -1,4 +1,4 @@
-```markdown
+
 # 💸 Personal Finance Tracker
 
 **A desktop application to manage income, expenses, and visualize financial trends with ease.**
@@ -46,17 +46,7 @@ finance_data/
   - `matplotlib`
   - `numpy`
 
-Install missing packages using:
 
-```bash
-pip install tkcalendar pandas matplotlib numpy
-```
-
-### Run the App
-
-```bash
-python finance_tracker.py
-```
 
 ## 📌 Usage Notes
 
